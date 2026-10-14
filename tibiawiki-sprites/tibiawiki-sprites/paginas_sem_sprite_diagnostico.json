@@ -1,0 +1,217 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "62737": {
+        "pageid": 62737,
+        "ns": 0,
+        "title": "Plant Heart",
+        "images": [
+          {
+            "ns": 6,
+            "title": "Arquivo:Burning Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Cursed Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Dazzled Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Electrified Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Freezing Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Físico.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Heal Icon.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Hearthp.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Plantas (Criatura).png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Poisoned Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:SemImagem.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Warning Icon Yellow.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Xpbestiary.png"
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "{{Infobox_Criatura|List={{{1|}}}|GetValue={{{GetValue|}}}\n| name             = Plant Heart\n| hp               = ?\n| exp              = 0\n| boss             = \n| isboss           = não\n| bosstype         = \n| bosscooldown     = \n| bosstimeout      = \n| summon           = \n| convince         = \n| illusionable     = \n| creatureclass    = Plantas (Criatura)\n| primarytype      = Criaturas de Quests\n| secondarytype    = \n| pushable         = \n| pushobjects      = \n| speed            = \n| charm            = \n| defense          = \n| mitigation       = \n| ocorrencia       = \n| dificuldade      = \n| maxdmg           = \n| abilities        = \n| hab_physical     =  \n| hab_earth        = \n| hab_fire         = \n| hab_death        = \n| hab_energy       = \n| hab_holy         = \n| hab_ice          = \n| hab_lifedrain    = \n| hab_manadrain    = \n| hab_drowning     = \n| hab_cura         = \n| hab_invis        = \n| hab_velocidade   = \n| hab_debuff       = \n| hab_invoca       = \n| hab_drunk        = \n| hab_paralyze     = \n| hab_antitrap     = \n| physicalDmgMod   = 100\n| earthDmgMod      = 100\n| fireDmgMod       = 100\n| deathDmgMod      = 100\n| energyDmgMod     = 100\n| holyDmgMod       = 100\n| iceDmgMod        = 100\n| healDmgMod       = 100\n| reflete          = \n| immunities       = \n| ignoresfields    = \n| implemented      = 13.40.54ea79\n| removed          = \n| respawnblocked   = não\n| behavior         = \n| sounds           = \n| loot             = Nenhum.\n| lootcomum        = \n| lootincomum      = \n| lootsemiraro     = \n| lootraro         = \n| lootmuitoraro    = \n| lootEvent        = \n| lootRaid         = \n| notes            = <noinclude><p><spoiler>* Faz parte da [[The Rise of Podzilla Quest]].</spoiler></p></noinclude>\n}}"
+              }
+            }
+          }
+        ]
+      },
+      "62740": {
+        "pageid": 62740,
+        "ns": 0,
+        "title": "Rootthing Conservator",
+        "images": [
+          {
+            "ns": 6,
+            "title": "Arquivo:Burning Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Cursed Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Dazzled Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Electrified Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Freezing Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Físico.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Heal Icon.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Hearthp.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Plantas (Criatura).png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Poisoned Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:SemImagem.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Warning Icon Yellow.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Xpbestiary.png"
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "{{Infobox_Criatura|List={{{1|}}}|GetValue={{{GetValue|}}}\n| name             = Rootthing Conservator\n| hp               = ?\n| exp              = 0\n| boss             = \n| isboss           = não\n| bosstype         = \n| bosscooldown     = \n| bosstimeout      = \n| summon           = \n| convince         = \n| illusionable     = \n| creatureclass    = Plantas (Criatura)\n| primarytype      = Criaturas de Quests\n| secondarytype    = \n| pushable         = \n| pushobjects      = \n| speed            = \n| charm            = \n| defense          = \n| mitigation       = \n| ocorrencia       = \n| dificuldade      = \n| maxdmg           = \n| abilities        = \n| hab_physical     = \n| hab_earth        = \n| hab_fire         = \n| hab_death        = \n| hab_energy       = \n| hab_holy         = \n| hab_ice          = \n| hab_lifedrain    = \n| hab_manadrain    = \n| hab_drowning     = \n| hab_cura         = \n| hab_invis        = \n| hab_velocidade   = \n| hab_debuff       = \n| hab_invoca       = \n| hab_drunk        = \n| hab_paralyze     = \n| hab_antitrap     = \n| physicalDmgMod   = 100\n| earthDmgMod      = 100\n| fireDmgMod       = 100\n| deathDmgMod      = 100\n| energyDmgMod     = 100\n| holyDmgMod       = 100\n| iceDmgMod        = 100\n| healDmgMod       = 100\n| reflete          = \n| immunities       = \n| ignoresfields    = \n| implemented      = 13.40.54ea79\n| removed          = \n| respawnblocked   = \n| behavior         = \n| sounds           = \n| loot             = Nenhum.\n| lootcomum        = \n| lootincomum      = \n| lootsemiraro     = \n| lootraro         = \n| lootmuitoraro    = \n| lootEvent        = \n| lootRaid         = \n| notes            = <noinclude><p><spoiler>* Faz parte da [[The Rise of Podzilla Quest]].</spoiler></p></noinclude>\n| history          = \n}}"
+              }
+            }
+          }
+        ]
+      },
+      "62733": {
+        "pageid": 62733,
+        "ns": 0,
+        "title": "The Bloom",
+        "images": [
+          {
+            "ns": 6,
+            "title": "Arquivo:Burning Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Cursed Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Dazzled Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Electrified Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Freezing Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Físico.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Heal Icon.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Hearthp.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Plantas (Criatura).png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Poisoned Icon.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:SemImagem.gif"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Warning Icon Yellow.png"
+          },
+          {
+            "ns": 6,
+            "title": "Arquivo:Xpbestiary.png"
+          }
+        ],
+        "revisions": [
+          {
+            "slots": {
+              "main": {
+                "contentmodel": "wikitext",
+                "contentformat": "text/x-wiki",
+                "*": "{{Infobox_Criatura|List={{{1|}}}|GetValue={{{GetValue|}}}\n| name             = The Bloom\n| hp               = 50\n| exp              = 0\n| boss             = \n| isboss           = não\n| bosstype         = \n| bosscooldown     = \n| bosstimeout      = \n| summon           = \n| convince         = \n| illusionable     = \n| creatureclass    = Plantas (Criatura)\n| primarytype      = Criaturas de Quests\n| secondarytype    = \n| pushable         = \n| pushobjects      = \n| speed            = \n| charm            = \n| defense          = \n| mitigation       = \n| ocorrencia       = \n| dificuldade      = \n| maxdmg           = \n| abilities        = \n| hab_physical     = \n| hab_earth        = \n| hab_fire         = \n| hab_death        = \n| hab_energy       = \n| hab_holy         = \n| hab_ice          = \n| hab_lifedrain    = \n| hab_manadrain    = \n| hab_drowning     = \n| hab_cura         = \n| hab_invis        = \n| hab_velocidade   = \n| hab_debuff       = \n| hab_invoca       = \n| hab_drunk        = \n| hab_paralyze     = \n| hab_antitrap     = \n| physicalDmgMod   = 100\n| earthDmgMod      = 100\n| fireDmgMod       = 100\n| deathDmgMod      = 100\n| energyDmgMod     = 100\n| holyDmgMod       = 100\n| iceDmgMod        = 100\n| healDmgMod       = 100\n| reflete          = \n| immunities       = \n| ignoresfields    = \n| implemented      = 13.40.54ea79\n| removed          = \n| respawnblocked   = não\n| behavior         = \n| sounds           = \n| loot             = Nenhum.\n| lootcomum        = \n| lootincomum      = \n| lootsemiraro     = \n| lootraro         = \n| lootmuitoraro    = \n| lootEvent        = \n| lootRaid         = \n| notes            = <noinclude><p><spoiler>* Faz parte da [[The Rise of Podzilla Quest]].</spoiler></p></noinclude>\n| history          = \n}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+fire_palace.otbm {'z': 4, 'x0': 993, 'y0': 1004, 'w': 15, 'h': 14, 'preench': 0.89, 'limpo': 0.95, 'tiles': 186}
+Desertcity.otbm {'z': 6, 'x0': 984, 'y0': 1021, 'w': 12, 'h': 11, 'preench': 0.95, 'limpo': 0.97, 'tiles': 125}
+Goldhaven.otbm {'z': 6, 'x0': 1029, 'y0': 993, 'w': 16, 'h': 12, 'preench': 0.89, 'limpo': 0.95, 'tiles': 170}
+Goldhaven.otbm {'z': 5, 'x0': 1037, 'y0': 966, 'w': 15, 'h': 9, 'preench': 0.89, 'limpo': 0.81, 'tiles': 120}
+lrb.otbm {'z': 12, 'x0': 1149, 'y0': 1064, 'w': 20, 'h': 17, 'preench': 0.89, 'limpo': 1.0, 'tiles': 303}
+city_proj.otbm {'z': 5, 'x0': 1031, 'y0': 968, 'w': 10, 'h': 11, 'preench': 1.0, 'limpo': 1.0, 'tiles': 110}
+city_proj.otbm {'z': 5, 'x0': 1038, 'y0': 1020, 'w': 13, 'h': 9, 'preench': 1.0, 'limpo': 1.0, 'tiles': 117}
+city_proj.otbm {'z': 5, 'x0': 1052, 'y0': 1020, 'w': 13, 'h': 9, 'preench': 1.0, 'limpo': 1.0, 'tiles': 117}
+icecatacomb.otbm {'z': 5, 'x0': 1065, 'y0': 1105, 'w': 10, 'h': 18, 'preench': 0.93, 'limpo': 1.0, 'tiles': 168}
+icecatacomb.otbm {'z': 5, 'x0': 1160, 'y0': 1041, 'w': 15, 'h': 10, 'preench': 0.94, 'limpo': 0.97, 'tiles': 141}
+icecatacomb.otbm {'z': 5, 'x0': 1043, 'y0': 1082, 'w': 12, 'h': 15, 'preench': 0.88, 'limpo': 0.99, 'tiles': 158}
+battlefield.otbm {'z': 5, 'x0': 1411, 'y0': 1525, 'w': 12, 'h': 9, 'preench': 0.89, 'limpo': 1.0, 'tiles': 96}
+Castles.otbm {'z': 1, 'x0': 1150, 'y0': 1222, 'w': 11, 'h': 11, 'preench': 1.0, 'limpo': 1.0, 'tiles': 121}
+Castles.otbm {'z': 1, 'x0': 1150, 'y0': 1251, 'w': 11, 'h': 11, 'preench': 1.0, 'limpo': 1.0, 'tiles': 121}
+Castles.otbm {'z': 1, 'x0': 1179, 'y0': 1222, 'w': 11, 'h': 11, 'preench': 1.0, 'limpo': 1.0, 'tiles': 121}

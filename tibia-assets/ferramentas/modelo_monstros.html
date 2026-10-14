@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monstros Tibia</title>
+<style>
+:root{--bg:#12151d;--card:#1c2130;--card2:#232a3d;--line:#33405c;--txt:#d6dbea;--mut:#8a93ad;--gold:#f2c14e;--green:#59d659;--red:#ff6a5a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:13px/1.4 Verdana,Tahoma,sans-serif}
+header{position:sticky;top:0;z-index:2;background:#0c0f16;border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+h1{margin:0;font-size:18px;color:var(--gold);white-space:nowrap}
+.filtros{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.filtros button{background:#161a26;border:1px solid var(--line);color:var(--mut);padding:5px 10px;border-radius:3px;cursor:pointer;font:inherit;font-weight:bold}
+.filtros button.on{color:var(--gold);border-color:var(--gold)}
+input,select{background:#0a0c12;border:1px solid var(--line);color:#fff;padding:6px 10px;border-radius:3px;font:inherit}
+input{flex:1;min-width:150px}
+.info{color:var(--mut);font-size:11px;padding:8px 16px 0}
+main{padding:12px 16px 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid #000;box-shadow:inset 0 0 0 1px var(--line);border-radius:4px;padding:8px;text-align:center}
+.pic{height:96px;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 70%,#2c3a26,#151b12);border-radius:3px;margin-bottom:6px;position:relative}
+.pic img{image-rendering:pixelated;width:64px;height:64px;transform:scale(1.4)}
+.pic .fail{color:var(--red);font-size:11px;padding:6px}
+.card b{display:block;font-size:12px;color:#fff;word-break:break-word}
+.est{color:var(--gold);font-size:12px;letter-spacing:1px}
+.card small{display:block;color:var(--mut);font-size:11px}
+.atk{margin-top:4px;font-size:10px;color:#c9a6ff;min-height:13px}
+.vazio{color:var(--mut);padding:20px 0}
+@media(max-width:600px){.grid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Monstros de nível baixo</h1>
+  <div class="filtros" id="est"></div>
+  <select id="classe"><option value="">Todas as classes</option></select>
+  <select id="ordem"><option value="e">Ordenar por exp</option><option value="h">Ordenar por HP</option><option value="n">Ordenar por nome</option></select>
+  <input id="q" placeholder="Buscar monstro…">
+</header>
+<div class="info" id="info"></div>
+<main><div class="grid" id="grid"></div><div class="vazio" id="vazio"></div></main>
+<script>
+const DADOS=/*DADOS*/[];
+const WIKI='https://www.tibiawiki.com.br/wiki/Especial:Redirecionar/file/';
+/* nomes diferentes no TibiaWiki BR */
+const ALIAS={'Blue Butterfly':'Butterfly (Azul)','Red Butterfly':'Butterfly (Vermelho)','Yellow Butterfly':'Butterfly (Amarelo)','Purple Butterfly':'Butterfly (Violeta)','Pink Butterfly':'Butterfly',
+  'Horse':'Horse (Marrom Escuro)','Grey Horse':'Horse (Cinza)','Brown Horse':'Horse (Marrom)','Nomad Blue':'Nomad (Blue)','Nomad Female':'Nomad (Female)'};
+const url=n=>WIKI+encodeURIComponent((ALIAS[n]||n).replace(/ /g,'_'))+'.gif';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $=s=>document.querySelector(s);
+let est=-1;const falhas=new Set();
+const NOMES_EST=['Inofensivo','Trivial','Fácil'];
+$('#est').innerHTML=[['-1','Todos'],['0','☆ Inofensivo'],['1','★ Trivial'],['2','★★ Fácil']].map(([v,t])=>`<button data-e="${v}" class="${v==='-1'?'on':''}">${t}</button>`).join('');
+[...new Set(DADOS.map(d=>d.c))].sort().forEach(c=>$('#classe').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`));
+function lista(){
+  const q=$('#q').value.trim().toLowerCase(),c=$('#classe').value,o=$('#ordem').value;
+  let l=DADOS.filter(d=>(est<0||d.s===est)&&(!c||d.c===c)&&(!q||d.n.toLowerCase().includes(q)));
+  l.sort((a,b)=>o==='n'?a.n.localeCompare(b.n):o==='h'?a.h-b.h||a.e-b.e:a.e-b.e||a.h-b.h);
+  return l;
+}
+function render(){
+  const l=lista();
+  $('#grid').innerHTML=l.map(d=>`<div class="card"><div class="pic"><img loading="lazy" alt="${esc(d.n)}" src="${url(d.n)}" onerror="this.outerHTML='<span class=fail>sem imagem no wiki</span>';falhou('${esc(d.n).replace(/'/g,"\\'")}')"></div>
+    <b>${esc(d.n)}</b><div class="est">${d.s?'★'.repeat(d.s):'☆'} <span style="color:var(--mut);letter-spacing:0;font-size:11px">${NOMES_EST[d.s]}</span></div>
+    <small>${d.e} exp · ${d.h} HP</small><small>${esc(d.c)}</small><div class="atk">${d.a.length?esc(d.a.slice(0,3).join(', ')):''}</div></div>`).join('');
+  $('#vazio').textContent=l.length?'':'Nenhum monstro encontrado.';
+  info();
+}
+function falhou(n){falhas.add(n);info();}
+function info(){$('#info').textContent=`${lista().length} de ${DADOS.length} monstros · dados do Canary (bestiário 0 a 2 estrelas) · imagens do TibiaWiki BR`+(falhas.size?` · ${falhas.size} sem imagem: ${[...falhas].join(', ')}`:'');}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-e]');if(!b)return;est=+b.dataset.e;document.querySelectorAll('[data-e]').forEach(x=>x.classList.toggle('on',x===b));render();});
+['q','classe','ordem'].forEach(id=>$('#'+id).addEventListener('input',render));
+render();
+</script>
+</body>
+</html>

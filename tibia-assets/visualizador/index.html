@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visualizador de Mapa</title>
+<style>
+:root{--bg:#0b0d12;--txt:#d6dbea;--mut:#8a93ad;--line:#33405c;--gold:#f2c14e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:12px Verdana,sans-serif}
+header{position:fixed;top:0;left:0;right:0;z-index:2;background:#11151f;border-bottom:1px solid var(--line);padding:8px 12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+b{color:var(--gold)}
+button,select{background:#1a2030;color:var(--txt);border:1px solid var(--line);border-radius:3px;padding:4px 10px;font:inherit;cursor:pointer}
+#wrap{position:absolute;top:46px;left:0;right:0;bottom:0;overflow:auto}
+canvas{image-rendering:pixelated;display:block}
+#info{color:var(--mut)}
+</style>
+</head>
+<body>
+<header>
+  <label>Mapa <select id="mapa"><option value="darashia">Darashia (Velho Oeste)</option><option value="dawnport">Dawnport</option></select></label>
+  <label>Andar <select id="andar"></select></label>
+  <label>Zoom <select id="zoom"><option value=".5">50%</option><option value="1" selected>100%</option><option value="2">200%</option></select></label>
+  <label><input type="checkbox" id="npcs" checked> NPCs</label>
+  <button id="cidade">Ir para o centro</button>
+  <span id="info">carregando…</span>
+</header>
+<div id="wrap"><canvas id="c"></canvas></div>
+<script>
+const TS=32,WIKI='https://www.tibiawiki.com.br/wiki/Especial:Redirecionar/file/';
+const PEQ=new Set(['of','the','a','an','and','in','on','with','for','to','from']);
+const titulo=n=>n.split(' ').map((w,i)=>i&&PEQ.has(w)?w:w.charAt(0).toUpperCase()+w.slice(1)).join('_');
+/* chão: nome do item → arquivo do wiki ('#' = recorte 32x32 de um sprite 64x64) */
+const CHAO={'grass':'Grass_Tile','shallow water':'Shallow_Water_Tile','water':'Shallow_Water_Tile','dirt floor':'Dirt_(Tile)','dirt':'Dirt_(Tile)',
+  'mossy floor':'Mossy_Floor','forest floor':'Mossy_Floor','rock soil':'Rock_Soil','gray sand':'Sand_Tile','sand':'Sand_Floor','stone floor':'Stone_(Floor)',
+  'flooded stone floor':'Stone_(Floor)','wooden floor':'Wooden_Floor_Tile','mountain':'#Mountain','debris':'Gravel_Tile','drawbridge':'Wooden_Floor_(Light)',
+  'marble floor':'Marble_Floor_(Piso)','white marble floor':'Marble_Floor_(Piso)','sandstone floor':'Sandstone_Floor_Tile','desert':'Sand_Floor','sand floor':'Sand_Floor',
+  'lava':'Lava_Tile','snow':'Snow_Tile','ice':'Ice_Floor_Tile','swamp':'Swamp_Tile','mud':'Mud_(Tile)','gravel':'Gravel_Tile','cobblestone':'Cobbled_Pavement_Tile','tiles':'Stone_(Floor)','flowers':'Flowers_Grass_Tile','ship':'Wooden_Floor_(Light)','hole':'Sewer_Cover'};
+const OBJ={'mountain':'#Mountain','sandstone':'#Sandstone_Wall','sandstone wall':'#Sandstone_Wall','wall':'#Brick_Wall','stone wall':'#Brick_Wall','brick wall':'#Brick_Wall',
+  'mossy wall':'#Mossy_Wall_(Parede)','reinforced wall':'#Brick_Wall','clinker wall':'#Brick_Wall','stairs':'Stairs_(Stone)','stairway':'Stairs_(Stone)','hand made stairs':'Stairs_(Wood)',
+  'ladder':'Ladder_(Wood)','rope-ladder':'Ladder_(Rope)','fence':'Wooden_Fence','closed door':'#Brick_Wall','wooden plank':'Wooden_Floor_Tile','iron floor':'Stone_(Floor)',
+  'mud sand':'Sand_Tile','dark sand':'Sand_Tile','dried grass':'Swamp_Grass','cactus':'Flowering_Cactus','thorn bush':'Bush','woods':'Wood'};
+const IM={},faltando=new Set();let pend=0,M=null;
+function img(arq){if(IM[arq]!==undefined)return IM[arq];IM[arq]=null;pend++;const i=new Image();
+  i.onload=()=>{IM[arq]=i;pend--;agendar();};i.onerror=()=>{IM[arq]=false;pend--;agendar();};i.src=WIKI+encodeURIComponent(arq)+'.gif';return null;}
+/* ajustes por mapa (ex.: em Darashia as paredes são de arenito) */
+const POR_MAPA={darashia:{'wall':'#Sandstone_Wall','closed door':'#Sandstone_Wall'}};
+function arquivo(nome,primeiro){if(!nome)return null;const n=nome.toLowerCase(),pm=(M&&POR_MAPA[M.nome])||{};
+  if(pm[n])return pm[n];
+  if(primeiro)return CHAO[n]||OBJ[n]||titulo(n);
+  if(CHAO[n]&&!OBJ[n])return null;            /* borda com o mesmo nome do chão: pula */
+  return OBJ[n]||titulo(n);}
+const $=s=>document.querySelector(s),cv=$('#c'),ctx=cv.getContext('2d');
+let t=null;function agendar(){clearTimeout(t);t=setTimeout(desenhar,200);}
+function desenhar(){
+  if(!M)return;const z=+$('#zoom').value,top=+$('#andar').value;
+  cv.width=M.w*TS;cv.height=M.h*TS;cv.style.width=M.w*TS*z+'px';ctx.imageSmoothingEnabled=false;ctx.fillStyle='#000';ctx.fillRect(0,0,cv.width,cv.height);
+  /* acima do chão: desenha do andar 7 até o escolhido, cada andar de cima deslocado 1 tile (como no Tibia); subsolo: só o andar */
+  const vis=top<=7?(zz=>zz>=top&&zz<=7):(zz=>zz===top),base=top<=7?7:top;
+  const tiles=M.tiles.filter(t=>vis(t[2])).sort((a,b)=>b[2]-a[2]||a[1]-b[1]||a[0]-b[0]);
+  for(const [x,y,zz,itens] of tiles){const off=(base-zz)*TS,X=x*TS-off,Y=y*TS-off;
+    itens.forEach(([id,nome],k)=>{const a=arquivo(nome,k===0);if(!a)return;const cr=a[0]==='#',im=img(cr?a.slice(1):a);
+      if(im===false){faltando.add(nome||('#'+id));return;}if(!im)return;
+      if(cr)ctx.drawImage(im,im.width-32,im.height-32,32,32,X,Y,32,32);else ctx.drawImage(im,X+32-im.width,Y+32-im.height);});}
+  if($('#npcs').checked){ctx.font='bold 11px Verdana';ctx.textAlign='center';
+    for(const [n,x,y,zz] of M.npcs){if(!vis(zz))continue;const off=(base-zz)*TS,X=x*TS-off+16,Y=y*TS-off;
+      ctx.fillStyle='#ffd84a';ctx.beginPath();ctx.arc(X,Y+16,6,0,7);ctx.fill();ctx.lineWidth=3;ctx.strokeStyle='#000';ctx.strokeText(n,X,Y-2);ctx.fillStyle='#7fe07f';ctx.fillText(n,X,Y-2);}}
+  $('#info').textContent=pend?`carregando ${pend} imagens do TibiaWiki…`:`${M.tiles.length} tiles · ${Object.values(IM).filter(Boolean).length} imagens · ${faltando.size} nomes sem imagem no wiki`;
+  window.__faltando=[...faltando];
+}
+function abrir(nome){
+  const s=document.createElement('script');s.src=nome+'.js';s.onload=()=>{M=window.MAPA;faltando.clear();
+    $('#andar').innerHTML=M.andares.map(a=>`<option value="${a}" ${a===M.andar_cidade?'selected':''}>${a}${a===7?' (térreo)':a<7?' (acima)':' (subsolo)'}</option>`).join('');
+    desenhar();setTimeout(centralizar,50);};document.body.appendChild(s);
+}
+function centralizar(){const z=+$('#zoom').value,w=$('#wrap');w.scrollLeft=M.centro[0]*TS*z-w.clientWidth/2;w.scrollTop=M.centro[1]*TS*z-w.clientHeight/2;}
+$('#mapa').onchange=e=>{history.replaceState(null,'','?mapa='+e.target.value);abrir(e.target.value);};
+['andar','zoom','npcs'].forEach(id=>$('#'+id).onchange=desenhar);$('#cidade').onclick=centralizar;
+const pedido=new URLSearchParams(location.search).get('mapa')||'darashia';$('#mapa').value=pedido;abrir(pedido);
+</script>
+</body>
+</html>

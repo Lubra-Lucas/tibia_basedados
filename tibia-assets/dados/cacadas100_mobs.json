@@ -1,0 +1,530 @@
+{
+"rat": {
+"nome": "Rat"
+},
+"cave_rat": {
+"nome": "Cave Rat"
+},
+"snake": {
+"nome": "Snake"
+},
+"spider": {
+"nome": "Spider"
+},
+"poison_spider": {
+"nome": "Poison Spider"
+},
+"wolf": {
+"nome": "Wolf"
+},
+"fox": {
+"nome": "Fox"
+},
+"azure_frog": {
+"nome": "Azure Frog"
+},
+"orchid_frog": {
+"nome": "Orchid Frog"
+},
+"coral_frog": {
+"nome": "Coral Frog"
+},
+"troll": {
+"nome": "Troll"
+},
+"island_troll": {
+"nome": "Island Troll"
+},
+"winter_wolf": {
+"nome": "Winter Wolf"
+},
+"bear": {
+"nome": "Bear"
+},
+"panda": {
+"nome": "Panda"
+},
+"wasp": {
+"nome": "Wasp"
+},
+"bug": {
+"nome": "Bug"
+},
+"goblin": {
+"nome": "Goblin"
+},
+"goblin_scavenger": {
+"nome": "Goblin Scavenger"
+},
+"orc": {
+"nome": "Orc"
+},
+"orc_spearman": {
+"nome": "Orc Spearman"
+},
+"polar_bear": {
+"nome": "Polar Bear"
+},
+"crab": {
+"nome": "Crab"
+},
+"lion": {
+"nome": "Lion"
+},
+"hyaena": {
+"nome": "Hyaena"
+},
+"cobra": {
+"nome": "Cobra"
+},
+"centipede": {
+"nome": "Centipede"
+},
+"larva": {
+"nome": "Larva"
+},
+"skeleton": {
+"nome": "Skeleton"
+},
+"skeleton_warrior": {
+"nome": "Skeleton Warrior"
+},
+"rotworm": {
+"nome": "Rotworm"
+},
+"carrion_worm": {
+"nome": "Carrion Worm"
+},
+"tiger": {
+"nome": "Tiger"
+},
+"crocodile": {
+"nome": "Crocodile"
+},
+"elf": {
+"nome": "Elf"
+},
+"elf_scout": {
+"nome": "Elf Scout"
+},
+"dwarf": {
+"nome": "Dwarf"
+},
+"dwarf_soldier": {
+"nome": "Dwarf Soldier"
+},
+"dwarf_guard": {
+"nome": "Dwarf Guard"
+},
+"minotaur": {
+"nome": "Minotaur"
+},
+"minotaur_archer": {
+"nome": "Minotaur Archer"
+},
+"minotaur_mage": {
+"nome": "Minotaur Mage"
+},
+"orc_warrior": {
+"nome": "Orc Warrior"
+},
+"orc_shaman": {
+"nome": "Orc Shaman"
+},
+"amazon": {
+"nome": "Amazon"
+},
+"valkyrie": {
+"nome": "Valkyrie"
+},
+"nomad": {
+"nome": "Nomad"
+},
+"nomad_female": {
+"nome": "Nomad Female"
+},
+"bandit": {
+"nome": "Bandit"
+},
+"poacher": {
+"nome": "Poacher"
+},
+"barbarian_skullhunter": {
+"nome": "Barbarian Skullhunter"
+},
+"barbarian_headsplitter": {
+"nome": "Barbarian Headsplitter"
+},
+"barbarian_brutetamer": {
+"nome": "Barbarian Brutetamer"
+},
+"ghoul": {
+"nome": "Ghoul"
+},
+"crypt_shambler": {
+"nome": "Crypt Shambler"
+},
+"gazer": {
+"nome": "Gazer"
+},
+"bonelord": {
+"nome": "Bonelord"
+},
+"gladiator": {
+"nome": "Gladiator"
+},
+"stalker": {
+"nome": "Stalker"
+},
+"tortoise": {
+"nome": "Tortoise"
+},
+"thornback_tortoise": {
+"nome": "Thornback Tortoise"
+},
+"quara_mantassin_scout": {
+"nome": "Quara Mantassin Scout"
+},
+"quara_hydromancer_scout": {
+"nome": "Quara Hydromancer Scout"
+},
+"assassin": {
+"nome": "Assassin"
+},
+"dark_apprentice": {
+"nome": "Dark Apprentice"
+},
+"kongra": {
+"nome": "Kongra"
+},
+"sibang": {
+"nome": "Sibang"
+},
+"merlkin": {
+"nome": "Merlkin"
+},
+"scarab": {
+"nome": "Scarab"
+},
+"sandcrawler": {
+"nome": "Sandcrawler"
+},
+"ghost": {
+"nome": "Ghost"
+},
+"tarnished_spirit": {
+"nome": "Tarnished Spirit"
+},
+"deepling_worker": {
+"nome": "Deepling Worker"
+},
+"deepling_scout": {
+"nome": "Deepling Scout"
+},
+"fire_devil": {
+"nome": "Fire Devil"
+},
+"gozzler": {
+"nome": "Gozzler"
+},
+"cyclops": {
+"nome": "Cyclops"
+},
+"cyclops_drone": {
+"nome": "Cyclops Drone"
+},
+"frost_giant": {
+"nome": "Frost Giant"
+},
+"frost_giantess": {
+"nome": "Frost Giantess"
+},
+"mummy": {
+"nome": "Mummy"
+},
+"tomb_servant": {
+"nome": "Tomb Servant"
+},
+"stone_golem": {
+"nome": "Stone Golem"
+},
+"iron_servant": {
+"nome": "Iron Servant"
+},
+"slime": {
+"nome": "Slime"
+},
+"mercury_blob": {
+"nome": "Mercury Blob"
+},
+"acid_blob": {
+"nome": "Acid Blob"
+},
+"dragon_hatchling": {
+"nome": "Dragon Hatchling"
+},
+"monk": {
+"nome": "Monk"
+},
+"dark_monk": {
+"nome": "Dark Monk"
+},
+"blue_djinn": {
+"nome": "Blue Djinn"
+},
+"green_djinn": {
+"nome": "Green Djinn"
+},
+"fire_elemental": {
+"nome": "Fire Elemental"
+},
+"demon_skeleton": {
+"nome": "Demon Skeleton"
+},
+"zombie": {
+"nome": "Zombie"
+},
+"vampire": {
+"nome": "Vampire"
+},
+"efreet": {
+"nome": "Efreet"
+},
+"yeti": {
+"nome": "Yeti"
+},
+"ice_witch": {
+"nome": "Ice Witch"
+},
+"wyvern": {
+"nome": "Wyvern"
+},
+"earth_elemental": {
+"nome": "Earth Elemental"
+},
+"massive_earth_elemental": {
+"nome": "Massive Earth Elemental"
+},
+"necromancer": {
+"nome": "Necromancer"
+},
+"bonebeast": {
+"nome": "Bonebeast"
+},
+"quara_mantassin": {
+"nome": "Quara Mantassin"
+},
+"dragon": {
+"nome": "Dragon"
+},
+"dragon_lord_hatchling": {
+"nome": "Dragon Lord Hatchling"
+},
+"insectoid_worker": {
+"nome": "Insectoid Worker"
+},
+"insectoid_scout": {
+"nome": "Insectoid Scout"
+},
+"pixie": {
+"nome": "Pixie"
+},
+"swan_maiden": {
+"nome": "Swan Maiden"
+},
+"bog_raider": {
+"nome": "Bog Raider"
+},
+"ogre_brute": {
+"nome": "Ogre Brute"
+},
+"ogre_shaman": {
+"nome": "Ogre Shaman"
+},
+"ogre_savage": {
+"nome": "Ogre Savage"
+},
+"giant_spider": {
+"nome": "Giant Spider"
+},
+"tarantula": {
+"nome": "Tarantula"
+},
+"lich": {
+"nome": "Lich"
+},
+"putrid_mummy": {
+"nome": "Putrid Mummy"
+},
+"gryphon": {
+"nome": "Gryphon"
+},
+"young_sea_serpent": {
+"nome": "Young Sea Serpent"
+},
+"yielothax": {
+"nome": "Yielothax"
+},
+"instable_breach_brood": {
+"nome": "Instable Breach Brood"
+},
+"minotaur_cult_zealot": {
+"nome": "Minotaur Cult Zealot"
+},
+"minotaur_cult_follower": {
+"nome": "Minotaur Cult Follower"
+},
+"minotaur_cult_prophet": {
+"nome": "Minotaur Cult Prophet"
+},
+"werebadger": {
+"nome": "Werebadger"
+},
+"werefox": {
+"nome": "Werefox"
+},
+"stone_rhino": {
+"nome": "Stone Rhino"
+},
+"hydra": {
+"nome": "Hydra"
+},
+"dragon_lord": {
+"nome": "Dragon Lord"
+},
+"behemoth": {
+"nome": "Behemoth"
+},
+"spidris": {
+"nome": "Spidris"
+},
+"spidris_elite": {
+"nome": "Spidris Elite"
+},
+"stone_devourer": {
+"nome": "Stone Devourer"
+},
+"fury": {
+"nome": "Fury"
+},
+"magma_crawler": {
+"nome": "Magma Crawler"
+},
+"lost_soul": {
+"nome": "Lost Soul"
+},
+"flimsy_lost_soul": {
+"nome": "Flimsy Lost Soul"
+},
+"dawnfire_asura": {
+"nome": "Dawnfire Asura"
+},
+"midnight_asura": {
+"nome": "Midnight Asura"
+},
+"frost_flower_asura": {
+"nome": "Frost Flower Asura"
+},
+"phantasm": {
+"nome": "Phantasm"
+},
+"bulltaur_alchemist": {
+"nome": "Bulltaur Alchemist"
+},
+"bulltaur_brute": {
+"nome": "Bulltaur Brute"
+},
+"skeleton_elite_warrior": {
+"nome": "Skeleton Elite Warrior"
+},
+"dragolisk": {
+"nome": "Dragolisk"
+},
+"manticore": {
+"nome": "Manticore"
+},
+"venerable_girtablilu": {
+"nome": "Venerable Girtablilu"
+},
+"girtablilu_warrior": {
+"nome": "Girtablilu Warrior"
+},
+"naga_warrior": {
+"nome": "Naga Warrior"
+},
+"naga_archer": {
+"nome": "Naga Archer"
+},
+"demon": {
+"nome": "Demon"
+},
+"deathling_scout": {
+"nome": "Deathling Scout"
+},
+"deathling_spellsinger": {
+"nome": "Deathling Spellsinger"
+},
+"undead_dragon": {
+"nome": "Undead Dragon"
+},
+"lava_golem": {
+"nome": "Lava Golem"
+},
+"feral_sphinx": {
+"nome": "Feral Sphinx"
+},
+"black_sphinx_acolyte": {
+"nome": "Black Sphinx Acolyte"
+},
+"guardian_of_tales": {
+"nome": "Guardian of Tales"
+},
+"energuardian_of_tales": {
+"nome": "Energuardian of Tales"
+},
+"hellflayer": {
+"nome": "Hellflayer"
+},
+"sabretooth": {
+"nome": "Sabretooth"
+},
+"gorerilla": {
+"nome": "Gorerilla"
+},
+"brachiodemon": {
+"nome": "Brachiodemon"
+},
+"infernal_phantom": {
+"nome": "Infernal Phantom"
+},
+"infernal_demon": {
+"nome": "Infernal Demon"
+},
+"rotten_golem": {
+"nome": "Rotten Golem"
+},
+"branchy_crawler": {
+"nome": "Branchy Crawler"
+},
+"bony_sea_devil": {
+"nome": "Bony Sea Devil"
+},
+"darklight_construct": {
+"nome": "Darklight Construct"
+},
+"darklight_striker": {
+"nome": "Darklight Striker"
+},
+"war_wolf": {
+"nome": "War Wolf"
+},
+"dworc_fleshhunter": {
+"nome": "Dworc Fleshhunter"
+},
+"terror_bird": {
+"nome": "Terror Bird"
+},
+"phantasm_summon": {
+"nome": "Phantasm Summon"
+}
+}

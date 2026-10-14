@@ -1,0 +1,106 @@
+RELATÓRIO DAS 100 CAÇADAS (gerado por gerar_cacadas100.py)
+
+nº | nome | monstros | level | mapa de origem / andar / recorte | bioma | tiles andáveis | spawns por modo (pontos x monstros por ponto = total)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 | Rat Cellars | Rat, Cave Rat | lv 1 | baiakstyller.otbm z10 [306,188-337,228] | construcao (subsolo) | 725 andáveis (37x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  2 | Snake Pit | Snake | lv 3 | Eternal Kingdoms.otbm z12 [1265,550-1304,578] | terra (subsolo) | 717 andáveis (45x31) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  3 | Spider Nest | Spider, Poison Spider | lv 4 | genesis.otbm z10 [1016,1089-1054,1129] | terra (subsolo) | 772 andáveis (44x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  4 | Wolf Den | Wolf, Fox | lv 6 | Aurora.otbm z13 [1660,575-1700,615] | grama (subsolo) | 895 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  5 | Frog Marsh | Azure Frog, Orchid Frog, Coral Frog | lv 7 | nefaria.otbm z7 [909,1366-949,1406] | pantano | 746 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  6 | Troll Hills | Troll, Island Troll | lv 8 | centera.otbm z7 [800,1432-840,1467] | grama | 899 andáveis (46x41) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  7 | Frost Wolf Trail | Winter Wolf | lv 9 | Azeroth.otbm z6 [363,254-403,294] | neve | 757 andáveis (43x43) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  8 | Bear Woods | Bear, Panda | lv 10 | map.otbm z7 [2635,1192-2675,1215] | grama | 924 andáveis (46x29) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+  9 | Wasp Hive | Wasp, Bug | lv 11 | Nutopia.otbm z8 [945,565-985,597] | grama (subsolo) | 1071 andáveis (46x38) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 10 | Goblin Burrows | Goblin, Goblin Scavenger | lv 12 | stylleryurots.otbm z10 [214,1087-250,1118] | terra (subsolo) | 698 andáveis (42x37) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 11 | Orc Camp | Orc, Orc Spearman | lv 13 | huttz.otbm z7 [2031,1216-2071,1256] | grama | 871 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 12 | Polar Den | Polar Bear | lv 14 | greed.otbm z9 [981,858-1042,882] | neve (subsolo) | 683 andáveis (67x30) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 13 | Crab Shore | Crab | lv 15 | Asgard.otbm z7 [397,1976-419,2016] | areia | 830 andáveis (28x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 14 | Savanna Plains | Lion, Hyaena | lv 16 | Halfard.otbm z7 [787,974-824,1007] | areia | 949 andáveis (43x39) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 15 | Cobra Dunes | Cobra | lv 17 | Vardius.otbm z7 [1430,1496-1470,1524] | areia | 858 andáveis (46x34) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 16 | Centipede Tunnels | Centipede, Larva | lv 18 | idk.otbm z10 [982,969-1020,1009] | terra (subsolo) | 790 andáveis (43x45) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 17 | Skeleton Crypt | Skeleton, Skeleton Warrior | lv 19 | lrb.otbm z10 [1153,1026-1187,1066] | pedra (subsolo) | 827 andáveis (40x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 18 | Rotworm Tunnels | Rotworm, Carrion Worm | lv 20 | naxedmap.otbm z9 [209,336-252,365] | terra (subsolo) | 671 andáveis (49x35) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 19 | Tiger Jungle | Tiger | lv 21 | Ere'Nath.otbm z7 [792,734-830,773] | grama | 856 andáveis (44x45) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 20 | Crocodile Swamp | Crocodile | lv 22 | Telara.otbm z6 [1070,920-1110,953] | pantano | 593 andáveis (46x36) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 21 | Elf Grove | Elf, Elf Scout | lv 23 | Emerald.otbm z7 [3551,3088-3591,3128] | grama | 987 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 22 | Dwarf Mines | Dwarf, Dwarf Soldier, Dwarf Guard | lv 24 | idk2.otbm z10 [982,969-1020,1009] | terra (subsolo) | 790 andáveis (44x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 23 | Minotaur Maze | Minotaur, Minotaur Archer, Minotaur Mage | lv 25 | earthelementals.otbm z9 [940,1050-980,1085] | terra (subsolo) | 830 andáveis (46x41) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 24 | Orc Stronghold | Orc Warrior, Orc Shaman | lv 26 | Thaismap.otbm z9 [1072,1456-1112,1496] | terra (subsolo) | 943 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 25 | Amazon Fort | Amazon, Valkyrie | lv 27 | kaldera3.otbm z7 [1254,954-1287,994] | grama | 826 andáveis (39x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 26 | Nomad Oasis | Nomad, Nomad Female | lv 28 | ByIkariam.otbm z7 [1060,1278-1095,1313] | areia | 902 andáveis (41x41) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 27 | Bandit Hideout | Bandit, Poacher | lv 29 | rising_continents.otbm z7 [377,1172-417,1196] | grama | 912 andáveis (46x30) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 28 | Barbarian Camp | Barbarian Skullhunter, Barbarian Headsplitter, Barbarian Brutetamer | lv 30 | icecatacomb.otbm z5 [1030,1041-1061,1081] | neve | 702 andáveis (37x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 29 | Ghoul Graves | Ghoul, Crypt Shambler | lv 31 | hell_dungeon.otbm z13 [949,1101-987,1141] | pedra (subsolo) | 834 andáveis (44x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 30 | Gazer Spires | Gazer, Bonelord | lv 32 | cants.otbm z14 [501,240-529,289] | pedra (subsolo) | 724 andáveis (34x55) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 31 | Gladiator Pit | Gladiator, Stalker | lv 33 | world.otbm z8 [1021,1021-1038,1056] | construcao (subsolo) | 437 andáveis (23x41) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 32 | Tortoise Coast | Tortoise, Thornback Tortoise | lv 34 | Desertcity.otbm z6 [1038,979-1078,1019] | areia | 848 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 33 | Quara Reef | Quara Mantassin Scout, Quara Hydromancer Scout | lv 35 | yutae.otbm z7 [1114,883-1139,923] | agua | 802 andáveis (30x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 34 | Assassin Den | Assassin, Dark Apprentice | lv 36 | Telara.otbm z8 [1546,846-1595,902] | construcao (subsolo) | 768 andáveis (55x62) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 35 | Kongra Jungle | Kongra, Sibang, Merlkin | lv 37 | styller.otbm z7 [542,1031-582,1065] | grama | 941 andáveis (46x40) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 36 | Scarab Tombs | Scarab, Sandcrawler | lv 38 | issavi.otbm z9 [33785,31595-33824,31627] | areia (subsolo) | 653 andáveis (45x38) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 37 | Haunted Manor | Ghost, Tarnished Spirit | lv 39 | Oasis.otbm z7 [996,986-1036,1022] | construcao | 851 andáveis (46x42) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 38 | Deepling Depths | Deepling Worker, Deepling Scout | lv 40 | MightMap.otbm z9 [1675,1954-1701,1994] | agua (subsolo) | 1058 andáveis (32x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 39 | Fire Devil Forge | Fire Devil, Gozzler | lv 44 | yielothax_nest.otbm z11 [961,1136-998,1177] | lava (subsolo) | 497 andáveis (43x47) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 40 | Cyclops Fort | Cyclops, Cyclops Drone | lv 45 | Tshikiti Mountains.otbm z4 [963,903-1003,943] | terra | 654 andáveis (46x44) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 41 | Frost Giant Hall | Frost Giant, Frost Giantess | lv 46 | Ice_Caves.otbm z13 [1007,1059-1040,1118] | neve (subsolo) | 845 andáveis (39x65) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 42 | Mummy Crypt | Mummy, Tomb Servant | lv 47 | Pck_Dung.otbm z10 [1046,991-1086,1031] | areia (subsolo) | 880 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 43 | Golem Workshop | Stone Golem, Iron Servant | lv 48 | SS_cave.otbm z11 [1026,1077-1066,1117] | pedra (subsolo) | 844 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 44 | Slime Pits | Slime, Mercury Blob, Acid Blob | lv 49 | hydras_cave.otbm z8 [983,1004-1023,1038] | pantano (subsolo) | 763 andáveis (46x40) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 45 | Dragon Nursery | Dragon Hatchling | lv 54 | EvobySumm.otbm z7 [808,1595-848,1634] | terra | 881 andáveis (46x45) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 46 | Monastery Halls | Monk, Dark Monk | lv 57 | Ere'Nath.otbm z13 [916,596-956,636] | construcao (subsolo) | 851 andáveis (43x43) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 47 | Djinn Fortress | Blue Djinn, Green Djinn | lv 61 | gz_valley.otbm z7 [1063,984-1102,1021] | areia | 864 andáveis (45x43) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 48 | Fire Rift | Fire Elemental | lv 62 | Nightmare_Seal.otbm z10 [974,1025-1009,1065] | lava (subsolo) | 680 andáveis (41x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 49 | Demon Skeleton Pit | Demon Skeleton | lv 65 | white_.otbm z9 [1016,982-1056,1022] | pedra (subsolo) | 643 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 50 | Zombie Graves | Zombie, Ghoul | lv 72 | otfusion.otbm z9 [903,1069-944,1098] | pedra (subsolo) | 716 andáveis (47x35) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 51 | Vampire Crypt | Vampire | lv 76 | heros.otbm z9 [1006,992-1045,1050] | pedra (subsolo) | 750 andáveis (45x64) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 52 | Efreet Palace | Efreet | lv 90 | secret_tomb.otbm z12 [965,987-1005,1027] | areia (subsolo) | 692 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 53 | Yeti Peak | Yeti, Ice Witch | lv 96 | forgotten.otbm z7 [314,134-354,166] | neve | 903 andáveis (46x38) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 54 | Wyvern Cliffs | Wyvern, Dragon Hatchling | lv 102 | Canoe island.otbm z7 [991,1005-1036,1052] | terra | 714 andáveis (51x53) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 55 | Earth Rift | Earth Elemental, Massive Earth Elemental | lv 107 | demondung.otbm z11 [942,1084-982,1121] | terra (subsolo) | 666 andáveis (46x43) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 56 | Necromancer Lair | Necromancer, Bonebeast | lv 111 | complex.otbm z8 [1008,1030-1042,1092] | pedra (subsolo) | 892 andáveis (40x68) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 57 | Quara Deep | Quara Mantassin, Quara Mantassin Scout | lv 114 | Underwater City.otbm z7 [983,1091-1023,1125] | agua | 788 andáveis (43x37) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 58 | Dragon Lair | Dragon, Dragon Hatchling, Dragon Lord Hatchling | lv 125 | heros_ruins.otbm z13 [1047,1004-1092,1039] | terra (subsolo) | 751 andáveis (51x41) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 59 | Insectoid Hive | Insectoid Worker, Insectoid Scout | lv 126 | Pleiades.otbm z10 [955,1009-995,1049] | terra (subsolo) | 847 andáveis (46x44) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 60 | Pixie Glade | Pixie, Swan Maiden | lv 127 | Kah-Mavundani Cliffs.otbm z7 [982,1028-1022,1055] | grama | 707 andáveis (43x33) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 61 | Bog Raider Marsh | Bog Raider | lv 138 | Swamp Thingy.otbm z7 [1042,1009-1079,1049] | pantano | 871 andáveis (43x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 62 | Ogre Camp | Ogre Brute, Ogre Shaman, Ogre Savage | lv 139 | chosen_.otbm z7 [1029,982-1068,1016] | grama | 656 andáveis (39x34) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 63 | Giant Spider Lair | Giant Spider, Tarantula | lv 150 | furydungeon.otbm z12 [1028,1020-1068,1047] | terra (subsolo) | 643 andáveis (46x33) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 64 | Lich Crypt | Lich, Putrid Mummy | lv 151 | A_DemonsCave.otbm z9 [965,1016-1004,1056] | pedra (subsolo) | 766 andáveis (45x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 65 | Gryphon Peaks | Gryphon | lv 160 | village.otbm z6 [1008,1082-1048,1106] | terra | 416 andáveis (43x28) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 66 | Serpent Coast | Young Sea Serpent | lv 161 | Atlantis.otbm z7 [1006,964-1045,1004] | agua | 1025 andáveis (45x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 67 | Yielothax Nest | Yielothax, Instable Breach Brood | lv 189 | baiakstyller.otbm z8 [1820,190-1858,221] | lava (subsolo) | 753 andáveis (44x37) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 68 | Cult Sanctum | Minotaur Cult Zealot, Minotaur Cult Follower, Minotaur Cult Prophet | lv 199 | gs.otbm z9 [1010,992-1050,1032] | terra (subsolo) | 757 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 69 | Werebeast Hollow | Werebadger, Werefox | lv 221 | Bogs.otbm z7 [1011,1011-1036,1039] | grama | 341 andáveis (31x34) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 70 | Rhino Plains | Stone Rhino | lv 236 | Goldhaven.otbm z7 [968,916-1008,956] | areia | 869 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 71 | Hydra Lair | Hydra | lv 259 | brimstonebug_cave.otbm z9 [979,1034-1019,1066] | pantano (subsolo) | 628 andáveis (46x38) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 72 | Dragon Lord Citadel | Dragon Lord, Dragon | lv 260 | Nutopia.otbm z7 [999,782-1039,822] | lava | 712 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 73 | Behemoth Caves | Behemoth | lv 292 | darkcave.otbm z9 [1000,1021-1040,1061] | terra (subsolo) | 702 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 74 | Spidris Nest | Spidris, Spidris Elite | lv 299 | firedungeon.otbm z9 [1014,999-1054,1039] | terra (subsolo) | 618 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 75 | Devourer Quarry | Stone Devourer | lv 320 | hell_dungeon.otbm z13 [1027,1101-1067,1141] | pedra (subsolo) | 850 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 76 | Fury Inferno | Fury | lv 360 | Vardius.otbm z10 [929,1358-969,1398] | lava (subsolo) | 1092 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 77 | Magma Tunnels | Magma Crawler | lv 375 | Aurora.otbm z11 [3362,2711-3387,2751] | lava (subsolo) | 771 andáveis (31x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 78 | Lost Souls Grave | Lost Soul, Flimsy Lost Soul | lv 380 | sandbastion.otbm z4 [1019,1013-1048,1039] | pedra | 421 andáveis (32x31) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 79 | Asura Palace | Dawnfire Asura, Midnight Asura, Frost Flower Asura | lv 387 | genesis.otbm z9 [666,1083-706,1123] | lava (subsolo) | 832 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 80 | Phantasm Void | Phantasm | lv 408 | elementals_cave.otbm z8 [987,1010-1030,1039] | pedra (subsolo) | 487 andáveis (49x35) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 81 | Bulltaur Forge | Bulltaur Alchemist, Bulltaur Brute | lv 415 | greed.otbm z15 [1034,1435-1062,1491] | pedra (subsolo) | 709 andáveis (34x62) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 82 | Elite Skeleton Barracks | Skeleton Elite Warrior | lv 434 | cants.otbm z14 [396,290-433,318] | pedra (subsolo) | 688 andáveis (43x34) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 83 | Dragolisk Lair | Dragolisk | lv 449 | tomb.otbm z11 [979,1013-1029,1057] | terra (subsolo) | 979 andáveis (56x50) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 84 | Manticore Ruins | Manticore | lv 452 | Asura_Tower.otbm z3 [1034,1008-1054,1038] | areia | 460 andáveis (22x32) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 85 | Girtablilu Sanctuary | Venerable Girtablilu, Girtablilu Warrior | lv 463 | hauntedtreelings_isles.otbm z12 [1035,1041-1068,1071] | areia (subsolo) | 578 andáveis (39x36) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 86 | Naga Temple | Naga Warrior, Naga Archer | lv 495 | mummys.otbm z8 [1008,1033-1048,1073] | pantano (subsolo) | 735 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 87 | Hellgore | Demon | lv 500 | hellgore.otbm z10 [997,1008-1044,1044] | lava (subsolo) | 968 andáveis (53x42) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 88 | Deathling Reef | Deathling Scout, Deathling Spellsinger | lv 519 | issavi.otbm z7 [33768,31629-33798,31669] | agua | 780 andáveis (36x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 89 | Undead Dragon Tomb | Undead Dragon | lv 587 | stylleryurots.otbm z12 [412,544-454,574] | pedra (subsolo) | 756 andáveis (48x36) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 90 | Lava Golem Forge | Lava Golem | lv 608 | nefaria.otbm z12 [1508,1244-1542,1282] | lava (subsolo) | 524 andáveis (40x44) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 91 | Sphinx Sanctum | Feral Sphinx, Black Sphinx Acolyte | lv 650 | deepd_cave.otbm z9 [1002,1021-1038,1048] | areia (subsolo) | 582 andáveis (40x33) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 92 | Library of Tales | Guardian of Tales, Energuardian of Tales | lv 722 | Azeroth.otbm z11 [236,159-264,208] | pedra (subsolo) | 723 andáveis (34x55) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 93 | Hellflayer Pit | Hellflayer | lv 760 | Nightmare_Seal.otbm z10 [969,1065-1009,1105] | lava (subsolo) | 696 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 94 | Sabretooth Cliffs | Sabretooth | lv 767 | huttz.otbm z7 [1106,1425-1143,1465] | neve | 833 andáveis (43x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 95 | Gorerilla Jungle | Gorerilla | lv 805 | Thaismap.otbm z7 [1053,1499-1093,1539] | grama | 884 andáveis (46x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 96 | Brachiodemon Hall | Brachiodemon, Infernal Phantom | lv 873 | Pck_Dung.otbm z9 [993,1047-1031,1069] | lava (subsolo) | 450 andáveis (44x28) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 97 | Infernal Throne | Infernal Demon | lv 911 | EvobySumm.otbm z10 [1068,1516-1092,1544] | lava (subsolo) | 345 andáveis (30x34) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 98 | Rotten Grove | Rotten Golem, Branchy Crawler | lv 920 | map.otbm z7 [1873,2257-1913,2284] | pantano | 588 andáveis (46x33) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+ 99 | Sea Devil Abyss | Bony Sea Devil | lv 953 | deeplings.otbm z13 [993,1096-1033,1134] | agua (subsolo) | 1107 andáveis (46x44) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+100 | Darklight Core | Darklight Construct, Darklight Striker | lv 1000 | baiakstyller.otbm z8 [1858,150-1895,190] | lava (subsolo) | 932 andáveis (40x46) | spawns 16: cau 6x1=6  ous 10x2=20  agr 16x3=48
+
+Total: 100 caçadas, 176 monstros, 652 itens, média de 762 tiles andáveis por caçada.

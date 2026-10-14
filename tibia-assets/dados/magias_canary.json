@@ -1,0 +1,2787 @@
+[
+ {
+  "arquivo": "attack/annihilation.lua",
+  "nome": "Annihilation",
+  "palavras": "exori gran ico",
+  "level": 110,
+  "mana": 300,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_WEAPONTYPE"
+  ]
+ },
+ {
+  "arquivo": "attack/apprentice's_strike.lua",
+  "nome": "Apprentice's Strike",
+  "palavras": "exori min flam",
+  "level": 8,
+  "mana": 6,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_FIREATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_FIRE"
+  ]
+ },
+ {
+  "arquivo": "attack/berserk.lua",
+  "nome": "Berserk",
+  "palavras": "exori",
+  "level": 35,
+  "mana": 115,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/brutal_strike.lua",
+  "nome": "Brutal Strike",
+  "palavras": "exori ico",
+  "level": 16,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_WEAPONTYPE"
+  ]
+ },
+ {
+  "arquivo": "attack/buzz.lua",
+  "nome": "Buzz",
+  "palavras": "exori infir vis",
+  "level": 1,
+  "mana": 6,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/chained_penance.lua",
+  "nome": "Chained Penance",
+  "palavras": "exori med pug",
+  "level": 70,
+  "mana": 180,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_WHITE_ENERGY_SPARK"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/chill_out.lua",
+  "nome": "Chill Out",
+  "palavras": "exevo infir frigo hur",
+  "level": 1,
+  "mana": 8,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/curse.lua",
+  "nome": "Curse",
+  "palavras": "utori mort",
+  "level": 75,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_SMALLCLOUDS"
+  ],
+  "projeteis": [
+   "CONST_ANI_DEATH"
+  ]
+ },
+ {
+  "arquivo": "attack/death_strike.lua",
+  "nome": "Death Strike",
+  "palavras": "exori mort",
+  "level": 16,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MORTAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_DEATH"
+  ]
+ },
+ {
+  "arquivo": "attack/devastating_knockout.lua",
+  "nome": "Devastating Knockout",
+  "palavras": "exori gran nia",
+  "level": 125,
+  "mana": 210,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CLAW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/divine_caldera.lua",
+  "nome": "Divine Caldera",
+  "palavras": "exevo mas san",
+  "level": 50,
+  "mana": 160,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HOLYAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/divine_grenade.lua",
+  "nome": "Divine Grenade",
+  "palavras": "exevo tempo mas san",
+  "level": 300,
+  "mana": 160,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_DIVINE_GRENADE",
+   "CONST_ME_HOLYDAMAGE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/divine_missile.lua",
+  "nome": "Divine Missile",
+  "palavras": "exori san",
+  "level": 40,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HOLYDAMAGE"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLHOLY"
+  ]
+ },
+ {
+  "arquivo": "attack/double_jab.lua",
+  "nome": "Double Jab",
+  "palavras": "exori pug",
+  "level": 14,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/electrify.lua",
+  "nome": "Electrify",
+  "palavras": "utori vis",
+  "level": 34,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/energy_beam.lua",
+  "nome": "Energy Beam",
+  "palavras": "exevo vis lux",
+  "level": 23,
+  "mana": 40,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYHIT"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/energy_strike.lua",
+  "nome": "Energy Strike",
+  "palavras": "exori vis",
+  "level": 12,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/energy_wave.lua",
+  "nome": "Energy Wave",
+  "palavras": "exevo vis hur",
+  "level": 38,
+  "mana": 170,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/envenom.lua",
+  "nome": "Envenom",
+  "palavras": "utori pox",
+  "level": 50,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_SMALLPLANTS"
+  ],
+  "projeteis": [
+   "CONST_ANI_EARTH"
+  ]
+ },
+ {
+  "arquivo": "attack/eternal_winter.lua",
+  "nome": "Eternal Winter",
+  "palavras": "exevo gran mas frigo",
+  "level": 60,
+  "mana": 1050,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICETORNADO"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/ethereal_spear.lua",
+  "nome": "Ethereal Spear",
+  "palavras": "exori con",
+  "level": 23,
+  "mana": 25,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ETHEREALSPEAR"
+  ]
+ },
+ {
+  "arquivo": "attack/executioners_throw.lua",
+  "nome": "Executioner's Throw",
+  "palavras": "exori amp kor",
+  "level": 300,
+  "mana": 225,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_POFF"
+  ],
+  "projeteis": [
+   "CONST_ANI_WEAPONTYPE"
+  ]
+ },
+ {
+  "arquivo": "attack/fierce_berserk.lua",
+  "nome": "Fierce Berserk",
+  "palavras": "exori gran",
+  "level": 90,
+  "mana": 340,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/fire_wave.lua",
+  "nome": "Fire Wave",
+  "palavras": "exevo flam hur",
+  "level": 18,
+  "mana": 25,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITBYFIRE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/flame_strike.lua",
+  "nome": "Flame Strike",
+  "palavras": "exori flam",
+  "level": 14,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"druid;true\", \"master sorcerer;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_FIREATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_FIRE"
+  ]
+ },
+ {
+  "arquivo": "attack/flurry_of_blows.lua",
+  "nome": "Flurry of Blows",
+  "palavras": "exori mas pug",
+  "level": 35,
+  "mana": 110,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_WHIRLWIND_BLOW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/forceful_uppercut.lua",
+  "nome": "Forceful Uppercut",
+  "palavras": "exori gran pug",
+  "level": 110,
+  "mana": 325,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/front_sweep.lua",
+  "nome": "Front Sweep",
+  "palavras": "exori min",
+  "level": 70,
+  "mana": 200,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/great_death_beam.lua",
+  "nome": "Great Death Beam",
+  "palavras": "exevo max mort",
+  "level": 300,
+  "mana": 140,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MORTAREA",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/great_energy_beam.lua",
+  "nome": "Great Energy Beam",
+  "palavras": "exevo gran vis lux",
+  "level": 29,
+  "mana": 110,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/great_fire_wave.lua",
+  "nome": "Great Fire Wave",
+  "palavras": "exevo gran flam hur",
+  "level": 38,
+  "mana": 120,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITBYFIRE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/greater_flurry_of_blows.lua",
+  "nome": "Greater Flurry of Blows",
+  "palavras": "exori gran mas pug",
+  "level": 90,
+  "mana": 300,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_WHIRLWIND_BLOW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/greater_tiger_clash.lua",
+  "nome": "Greater Tiger Clash",
+  "palavras": "exori nia",
+  "level": 18,
+  "mana": 50,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CLAW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/groundshaker.lua",
+  "nome": "Groundshaker",
+  "palavras": "exori mas",
+  "level": 33,
+  "mana": 160,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_GROUNDSHAKER"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/hells_core.lua",
+  "nome": "Hell's Core",
+  "palavras": "exevo gran mas flam",
+  "level": 60,
+  "mana": 1100,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_FIREAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/holy_flash.lua",
+  "nome": "Holy Flash",
+  "palavras": "utori san",
+  "level": 70,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [],
+  "projeteis": [
+   "CONST_ANI_SMALLHOLY"
+  ]
+ },
+ {
+  "arquivo": "attack/ice_burst.lua",
+  "nome": "Ice Burst",
+  "palavras": "exevo ulus frigo",
+  "level": 300,
+  "mana": 230,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEATTACK",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/ice_strike.lua",
+  "nome": "Ice Strike",
+  "palavras": "exori frigo",
+  "level": 15,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"sorcerer;true\", \"elder druid;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLICE"
+  ]
+ },
+ {
+  "arquivo": "attack/ice_wave.lua",
+  "nome": "Ice Wave",
+  "palavras": "exevo frigo hur",
+  "level": 18,
+  "mana": 25,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/ignite.lua",
+  "nome": "Ignite",
+  "palavras": "utori flam",
+  "level": 26,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": [
+   "CONST_ANI_FIRE"
+  ]
+ },
+ {
+  "arquivo": "attack/inflict_wound.lua",
+  "nome": "Inflict Wound",
+  "palavras": "utori kor",
+  "level": 40,
+  "mana": 30,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_DRAWBLOOD"
+  ],
+  "projeteis": [
+   "CONST_ANI_WEAPONTYPE"
+  ]
+ },
+ {
+  "arquivo": "attack/lesser_ethereal_spear.lua",
+  "nome": "Lesser Ethereal Spear",
+  "palavras": "exori infir con",
+  "level": 1,
+  "mana": 6,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ETHEREALSPEAR"
+  ]
+ },
+ {
+  "arquivo": "attack/lesser_front_sweep.lua",
+  "nome": "Lesser Front Sweep",
+  "palavras": "exori infir min",
+  "level": 1,
+  "mana": 6,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/lightning.lua",
+  "nome": "Lightning",
+  "palavras": "exori amp vis",
+  "level": 55,
+  "mana": 60,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/mud_attack.lua",
+  "nome": "Mud Attack",
+  "palavras": "exori infir tera",
+  "level": 1,
+  "mana": 6,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CARNIPHILA"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLEARTH"
+  ]
+ },
+ {
+  "arquivo": "attack/mystic_repulse.lua",
+  "nome": "Mystic Repulse",
+  "palavras": "exori amp pug",
+  "level": 30,
+  "mana": 150,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_BLOW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/physical_strike.lua",
+  "nome": "Physical Strike",
+  "palavras": "exori moe ico",
+  "level": 16,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_EXPLOSIONAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_EXPLOSION"
+  ]
+ },
+ {
+  "arquivo": "attack/practise_fire_wave.lua",
+  "nome": "Practise Fire Wave",
+  "palavras": "exevo dis flam hur",
+  "level": 1,
+  "mana": 5,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"none\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITBYFIRE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/rage_of_the_skies.lua",
+  "nome": "Rage of the Skies",
+  "palavras": "exevo gran mas vis",
+  "level": 55,
+  "mana": 600,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_BIGCLOUDS"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/scorch.lua",
+  "nome": "Scorch",
+  "palavras": "exevo infir flam hur",
+  "level": 1,
+  "mana": 8,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITBYFIRE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/spiritual_outburst.lua",
+  "nome": "Spiritual Outburst",
+  "palavras": "exori gran mas nia",
+  "level": 0,
+  "mana": 425,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_BLOW_WHITE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/strong_energy_strike.lua",
+  "nome": "Strong Energy Strike",
+  "palavras": "exori gran vis",
+  "level": 80,
+  "mana": 60,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/strong_ethereal_spear.lua",
+  "nome": "Strong Ethereal Spear",
+  "palavras": "exori gran con",
+  "level": 90,
+  "mana": 55,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ETHEREALSPEAR"
+  ]
+ },
+ {
+  "arquivo": "attack/strong_flame_strike.lua",
+  "nome": "Strong Flame Strike",
+  "palavras": "exori gran flam",
+  "level": 70,
+  "mana": 60,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_FIREATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_FIRE"
+  ]
+ },
+ {
+  "arquivo": "attack/strong_ice_strike.lua",
+  "nome": "Strong Ice Strike",
+  "palavras": "exori gran frigo",
+  "level": 80,
+  "mana": 60,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLICE"
+  ]
+ },
+ {
+  "arquivo": "attack/strong_ice_wave.lua",
+  "nome": "Strong Ice Wave",
+  "palavras": "exevo gran frigo hur",
+  "level": 40,
+  "mana": 170,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/strong_terra_strike.lua",
+  "nome": "Strong Terra Strike",
+  "palavras": "exori gran tera",
+  "level": 70,
+  "mana": 60,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CARNIPHILA"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLEARTH"
+  ]
+ },
+ {
+  "arquivo": "attack/sweeping_takedown.lua",
+  "nome": "Sweeping Takedown",
+  "palavras": "exori mas nia",
+  "level": 60,
+  "mana": 210,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_BLOW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/swift_jab.lua",
+  "nome": "Swift Jab",
+  "palavras": "exori infir pug",
+  "level": 0,
+  "mana": 3,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/terra_burst.lua",
+  "nome": "Terra Burst",
+  "palavras": "exevo ulus tera",
+  "level": 300,
+  "mana": 230,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_POFF",
+   "CONST_ME_SMALLPLANTS"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/terra_strike.lua",
+  "nome": "Terra Strike",
+  "palavras": "exori tera",
+  "level": 13,
+  "mana": 20,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CARNIPHILA"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLEARTH"
+  ]
+ },
+ {
+  "arquivo": "attack/terra_wave.lua",
+  "nome": "Terra Wave",
+  "palavras": "exevo tera hur",
+  "level": 38,
+  "mana": 170,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_SMALLPLANTS"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/tiger_clash.lua",
+  "nome": "Tiger Clash",
+  "palavras": "exori infir nia",
+  "level": 0,
+  "mana": 3,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CLAW_WHITE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "attack/ultimate_energy_strike.lua",
+  "nome": "Ultimate Energy Strike",
+  "palavras": "exori max vis",
+  "level": 100,
+  "mana": 100,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ENERGYAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_ENERGY"
+  ]
+ },
+ {
+  "arquivo": "attack/ultimate_flame_strike.lua",
+  "nome": "Ultimate Flame Strike",
+  "palavras": "exori max flam",
+  "level": 90,
+  "mana": 100,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_FIREATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_FIRE"
+  ]
+ },
+ {
+  "arquivo": "attack/ultimate_ice_strike.lua",
+  "nome": "Ultimate Ice Strike",
+  "palavras": "exori max frigo",
+  "level": 100,
+  "mana": 100,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_ICEATTACK"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLICE"
+  ]
+ },
+ {
+  "arquivo": "attack/ultimate_terra_strike.lua",
+  "nome": "Ultimate Terra Strike",
+  "palavras": "exori max tera",
+  "level": 90,
+  "mana": 100,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CARNIPHILA"
+  ],
+  "projeteis": [
+   "CONST_ANI_SMALLEARTH"
+  ]
+ },
+ {
+  "arquivo": "attack/whirlwind_throw.lua",
+  "nome": "Whirlwind Throw",
+  "palavras": "exori hur",
+  "level": 28,
+  "mana": 40,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_HITAREA"
+  ],
+  "projeteis": [
+   "CONST_ANI_WEAPONTYPE"
+  ]
+ },
+ {
+  "arquivo": "attack/wrath_of_nature.lua",
+  "nome": "Wrath of Nature",
+  "palavras": "exevo gran mas tera",
+  "level": 55,
+  "mana": 700,
+  "grupo": "attack",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_SMALLPLANTS"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/animate_dead_rune.lua",
+  "nome": "Animate Dead Rune",
+  "palavras": "adana mort",
+  "level": 27,
+  "mana": 600,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/arrow_call.lua",
+  "nome": "Arrow Call",
+  "palavras": "exevo infir con",
+  "level": 1,
+  "mana": 10,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/avalanche_rune.lua",
+  "nome": "Avalanche Rune",
+  "palavras": "adori mas frigo",
+  "level": 30,
+  "mana": 530,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/blank_rune.lua",
+  "nome": "Blank Rune",
+  "palavras": "adori blank",
+  "level": 20,
+  "mana": 50,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"paladin;true\", \"sorcerer;true\", \"elder druid;true\", \"royal paladin;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/chameleon_rune.lua",
+  "nome": "Chameleon Rune",
+  "palavras": "adevo ina",
+  "level": 27,
+  "mana": 600,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_arrow.lua",
+  "nome": "Conjure Arrow",
+  "palavras": "exevo con",
+  "level": 13,
+  "mana": 100,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_bolt.lua",
+  "nome": "Conjure Bolt",
+  "palavras": "exevo con mort",
+  "level": 17,
+  "mana": 140,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_explosive_arrow.lua",
+  "nome": "Conjure Explosive Arrow",
+  "palavras": "exevo con flam",
+  "level": 25,
+  "mana": 290,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_piercing_bolt.lua",
+  "nome": "Conjure Piercing Bolt",
+  "palavras": "exevo con grav",
+  "level": 33,
+  "mana": 180,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_poisoned_arrow.lua",
+  "nome": "Conjure Poisoned Arrow",
+  "palavras": "exevo con pox",
+  "level": 16,
+  "mana": 130,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_power_bolt.lua",
+  "nome": "Conjure Power Bolt",
+  "palavras": "exevo con vis",
+  "level": 59,
+  "mana": 700,
+  "grupo": "support",
+  "vocacoes": [
+   "\"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_royal_star.lua",
+  "nome": "Conjure Royal Star",
+  "palavras": "exevo gran con grav",
+  "level": 150,
+  "mana": 1000,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_sniper_arrow.lua",
+  "nome": "Conjure Sniper Arrow",
+  "palavras": "exevo con hur",
+  "level": 24,
+  "mana": 160,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/conjure_wand_of_darkness.lua",
+  "nome": "Conjure Wand of Darkness",
+  "palavras": "exevo gran mort",
+  "level": 41,
+  "mana": 250,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/convince_creature_rune.lua",
+  "nome": "Convince Creature Rune",
+  "palavras": "adeta sio",
+  "level": 16,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/cure_poison_rune.lua",
+  "nome": "Cure Poison Rune",
+  "palavras": "adana pox",
+  "level": 15,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/destroy_field_rune.lua",
+  "nome": "Destroy Field Rune",
+  "palavras": "adito grav",
+  "level": 17,
+  "mana": 120,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/disintegrate_rune.lua",
+  "nome": "Disintegrate Rune",
+  "palavras": "adito tera",
+  "level": 21,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/enchant_spear.lua",
+  "nome": "Enchant Spear",
+  "palavras": "exeta con",
+  "level": 45,
+  "mana": 350,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/enchant_staff.lua",
+  "nome": "Enchant Staff",
+  "palavras": "exeta vis",
+  "level": 41,
+  "mana": 80,
+  "grupo": "support",
+  "vocacoes": [
+   "\"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/energy_bomb_rune.lua",
+  "nome": "Energy Bomb Rune",
+  "palavras": "adevo mas vis",
+  "level": 37,
+  "mana": 880,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/energy_field_rune.lua",
+  "nome": "Energy Field Rune",
+  "palavras": "adevo grav vis",
+  "level": 18,
+  "mana": 320,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/energy_wall_rune.lua",
+  "nome": "Energy Wall Rune",
+  "palavras": "adevo mas grav vis",
+  "level": 41,
+  "mana": 1000,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/explosion_rune.lua",
+  "nome": "Explosion Rune",
+  "palavras": "adevo mas hur",
+  "level": 31,
+  "mana": 570,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/fire_bomb_rune.lua",
+  "nome": "Fire Bomb Rune",
+  "palavras": "adevo mas flam",
+  "level": 27,
+  "mana": 600,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/fire_field_rune.lua",
+  "nome": "Fire Field Rune",
+  "palavras": "adevo grav flam",
+  "level": 15,
+  "mana": 240,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/fire_wall_rune.lua",
+  "nome": "Fire Wall Rune",
+  "palavras": "adevo mas grav flam",
+  "level": 33,
+  "mana": 780,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/fireball_rune.lua",
+  "nome": "Fireball Rune",
+  "palavras": "adori flam",
+  "level": 27,
+  "mana": 460,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/great_fireball_rune.lua",
+  "nome": "Great Fireball Rune",
+  "palavras": "adori mas flam",
+  "level": 30,
+  "mana": 530,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/heavy_magic_missile_rune.lua",
+  "nome": "Heavy Magic Missile Rune",
+  "palavras": "adori vis",
+  "level": 25,
+  "mana": 350,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/holy_missile_rune.lua",
+  "nome": "Holy Missile Rune",
+  "palavras": "adori san",
+  "level": 27,
+  "mana": 300,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/icicle_rune.lua",
+  "nome": "Icicle Rune",
+  "palavras": "adori frigo",
+  "level": 28,
+  "mana": 460,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/intense_healing_rune.lua",
+  "nome": "Intense Healing Rune",
+  "palavras": "adura gran",
+  "level": 15,
+  "mana": 120,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/light_magic_missile_rune.lua",
+  "nome": "Light Magic Missile Rune",
+  "palavras": "adori min vis",
+  "level": 15,
+  "mana": 120,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/light_stone_shower_rune.lua",
+  "nome": "Light Stone Shower Rune",
+  "palavras": "adori infir mas tera",
+  "level": 1,
+  "mana": 6,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/lightest_magic_missile_rune.lua",
+  "nome": "Lightest Magic Missile",
+  "palavras": "adori dis min vis",
+  "level": 1,
+  "mana": 5,
+  "grupo": "support",
+  "vocacoes": [
+   "\"none\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/lightest_missile_rune.lua",
+  "nome": "Lightest Missile Rune",
+  "palavras": "adori infir vis",
+  "level": 1,
+  "mana": 6,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/magic_wall_rune.lua",
+  "nome": "Magic Wall Rune",
+  "palavras": "adevo grav tera",
+  "level": 32,
+  "mana": 750,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/paralyze_rune.lua",
+  "nome": "Paralyze Rune",
+  "palavras": "adana ani",
+  "level": 54,
+  "mana": 1400,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/poison_bomb_rune.lua",
+  "nome": "Poison Bomb Rune",
+  "palavras": "adevo mas pox",
+  "level": 25,
+  "mana": 520,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/poison_field_rune.lua",
+  "nome": "Poison Field Rune",
+  "palavras": "adevo grav pox",
+  "level": 14,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/poison_wall_rune.lua",
+  "nome": "Poison Wall Rune",
+  "palavras": "adevo mas grav pox",
+  "level": 29,
+  "mana": 640,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/soulfire_rune.lua",
+  "nome": "Soulfire Rune",
+  "palavras": "adevo res flam",
+  "level": 27,
+  "mana": 420,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/stalagmite_rune.lua",
+  "nome": "Stalagmite Rune",
+  "palavras": "adori tera",
+  "level": 24,
+  "mana": 350,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/stone_shower_rune.lua",
+  "nome": "Stone Shower Rune",
+  "palavras": "adori mas tera",
+  "level": 28,
+  "mana": 430,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/sudden_death_rune.lua",
+  "nome": "Sudden Death Rune",
+  "palavras": "adori gran mort",
+  "level": 45,
+  "mana": 985,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/thunderstorm_rune.lua",
+  "nome": "Thunderstorm Rune",
+  "palavras": "adori mas vis",
+  "level": 28,
+  "mana": 430,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/ultimate_healing_rune.lua",
+  "nome": "Ultimate Healing Rune",
+  "palavras": "adura vita",
+  "level": 24,
+  "mana": 400,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "conjuring/wild_growth_rune.lua",
+  "nome": "Wild Growth Rune",
+  "palavras": "adevo grav vita",
+  "level": 27,
+  "mana": 600,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/bruise_bane.lua",
+  "nome": "Bruise Bane",
+  "palavras": "exura infir ico",
+  "level": 1,
+  "mana": 10,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/cure_bleeding.lua",
+  "nome": "Cure Bleeding",
+  "palavras": "exana kor",
+  "level": 45,
+  "mana": 30,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/cure_burning.lua",
+  "nome": "Cure Burning",
+  "palavras": "exana flam",
+  "level": 30,
+  "mana": 30,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/cure_curse.lua",
+  "nome": "Cure Curse",
+  "palavras": "exana mort",
+  "level": 80,
+  "mana": 40,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/cure_electrification.lua",
+  "nome": "Cure Electrification",
+  "palavras": "exana vis",
+  "level": 22,
+  "mana": 30,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/cure_poison.lua",
+  "nome": "Cure Poison",
+  "palavras": "exana pox",
+  "level": 10,
+  "mana": 30,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/divine_healing.lua",
+  "nome": "Divine Healing",
+  "palavras": "exura san",
+  "level": 35,
+  "mana": 160,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/fair_wound_cleansing.lua",
+  "nome": "Fair Wound Cleansing",
+  "palavras": "exura med ico",
+  "level": 300,
+  "mana": 90,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/heal_friend.lua",
+  "nome": "Heal Friend",
+  "palavras": "exura sio",
+  "level": 18,
+  "mana": 120,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/heal_malice.lua",
+  "nome": "Heal Malice",
+  "palavras": "#####462",
+  "level": null,
+  "mana": null,
+  "grupo": null,
+  "vocacoes": [],
+  "efeitos": [
+   "CONST_ME_MAGIC_RED"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/heal_monsters.lua",
+  "nome": "Heal Monster",
+  "palavras": "#####458",
+  "level": null,
+  "mana": null,
+  "grupo": null,
+  "vocacoes": [],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_NONE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/heal_monsters_9x9.lua",
+  "nome": "Heal Monster 9x9",
+  "palavras": "#####459",
+  "level": null,
+  "mana": null,
+  "grupo": null,
+  "vocacoes": [],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_NONE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/intense_healing.lua",
+  "nome": "Intense Healing",
+  "palavras": "exura gran",
+  "level": 20,
+  "mana": 70,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/intense_recovery.lua",
+  "nome": "Intense Recovery",
+  "palavras": "utura gran",
+  "level": 100,
+  "mana": 165,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/intense_wound_cleansing.lua",
+  "nome": "Intense Wound Cleansing",
+  "palavras": "exura gran ico",
+  "level": 80,
+  "mana": 200,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/light_healing.lua",
+  "nome": "Light Healing",
+  "palavras": "exura",
+  "level": 8,
+  "mana": 20,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/magic_patch.lua",
+  "nome": "Magic Patch",
+  "palavras": "exura infir",
+  "level": 1,
+  "mana": 6,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/mass_healing.lua",
+  "nome": "Mass Healing",
+  "palavras": "exura gran mas res",
+  "level": 36,
+  "mana": 150,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_NONE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/mass_spirit_mend.lua",
+  "nome": "Mass Spirit Mend",
+  "palavras": "exura mas nia",
+  "level": 150,
+  "mana": 250,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_NONE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/nature's_embrace.lua",
+  "nome": "Nature's Embrace",
+  "palavras": "exura gran sio",
+  "level": 300,
+  "mana": 400,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/practise_healing.lua",
+  "nome": "Practise Healing",
+  "palavras": "exura dis",
+  "level": 1,
+  "mana": 5,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"none\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/recovery.lua",
+  "nome": "Recovery",
+  "palavras": "utura",
+  "level": 50,
+  "mana": 75,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/restoration.lua",
+  "nome": "Restoration",
+  "palavras": "exura max vita",
+  "level": 300,
+  "mana": 260,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"sorcerer;true\", \"elder druid;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/restore_balance.lua",
+  "nome": "Restore Balance",
+  "palavras": "exura tio sio",
+  "level": 18,
+  "mana": 120,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/salvation.lua",
+  "nome": "Salvation",
+  "palavras": "exura gran san",
+  "level": 60,
+  "mana": 210,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/spirit_mend.lua",
+  "nome": "Spirit Mend",
+  "palavras": "exura gran tio",
+  "level": 80,
+  "mana": 210,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/ultimate_healing.lua",
+  "nome": "Ultimate Healing",
+  "palavras": "exura vita",
+  "level": 30,
+  "mana": 160,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "healing/wound_cleansing.lua",
+  "nome": "Wound Cleansing",
+  "palavras": "exura ico",
+  "level": 8,
+  "mana": 40,
+  "grupo": "healing",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/avatar_of_balance.lua",
+  "nome": "Avatar of Balance",
+  "palavras": "uteta res tio",
+  "level": 300,
+  "mana": 1200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_AVATAR_APPEAR",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/avatar_of_light.lua",
+  "nome": "Avatar of Light",
+  "palavras": "uteta res sac",
+  "level": 300,
+  "mana": 1500,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_AVATAR_APPEAR",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/avatar_of_nature.lua",
+  "nome": "Avatar of Nature",
+  "palavras": "uteta res dru",
+  "level": 300,
+  "mana": 2200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_AVATAR_APPEAR",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/avatar_of_steel.lua",
+  "nome": "Avatar of Steel",
+  "palavras": "uteta res eq",
+  "level": 300,
+  "mana": 800,
+  "grupo": "support",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_AVATAR_APPEAR",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/avatar_of_storm.lua",
+  "nome": "Avatar of Storm",
+  "palavras": "uteta res ven",
+  "level": 300,
+  "mana": 2200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_AVATAR_APPEAR",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/balanced_brawl.lua",
+  "nome": "Balanced Brawl",
+  "palavras": "exori mas res",
+  "level": 175,
+  "mana": 80,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/blood_rage.lua",
+  "nome": "Blood Rage",
+  "palavras": "utito tempo",
+  "level": 60,
+  "mana": 290,
+  "grupo": "support",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/cancel_invisibility.lua",
+  "nome": "Cancel Invisibility",
+  "palavras": "exana ina",
+  "level": 26,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/cancel_magic_shield.lua",
+  "nome": "Cancel Magic Shield",
+  "palavras": "exana vita",
+  "level": 14,
+  "mana": 50,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"sorcerer;true\", \"elder druid;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/challenge.lua",
+  "nome": "Challenge",
+  "palavras": "exeta res",
+  "level": 20,
+  "mana": 30,
+  "grupo": "support",
+  "vocacoes": [
+   "\"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/charge.lua",
+  "nome": "Charge",
+  "palavras": "utani tempo hur",
+  "level": 25,
+  "mana": 100,
+  "grupo": "support",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/chivalrous_challenge.lua",
+  "nome": "Chivalrous Challenge",
+  "palavras": "exeta amp res",
+  "level": 150,
+  "mana": 80,
+  "grupo": "support",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_CHIVALRIOUS_CHALLENGE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/creature_illusion.lua",
+  "nome": "Creature Illusion",
+  "palavras": "utevo res ina",
+  "level": 23,
+  "mana": 100,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_RED",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/divine_dazzle.lua",
+  "nome": "Divine Dazzle",
+  "palavras": "exana amp res",
+  "level": 250,
+  "mana": 80,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_DIVINE_DAZZLE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/divine_empowerment.lua",
+  "nome": "Divine Empowerment",
+  "palavras": "utevo grav san",
+  "level": 300,
+  "mana": 500,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/expose_weakness.lua",
+  "nome": "Expose Weakness",
+  "palavras": "exori moe",
+  "level": 275,
+  "mana": 400,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MORTAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/find_fiend.lua",
+  "nome": "Find Fiend",
+  "palavras": "exiva moe res",
+  "level": 25,
+  "mana": 20,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/find_person.lua",
+  "nome": "Find Person",
+  "palavras": "exiva",
+  "level": 8,
+  "mana": 20,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_POFF"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/focus_harmony.lua",
+  "nome": "Focus Harmony",
+  "palavras": "utevo nia",
+  "level": 275,
+  "mana": 500,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/focus_serenity.lua",
+  "nome": "Focus Serenity",
+  "palavras": "utamo tio",
+  "level": 150,
+  "mana": 500,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/food.lua",
+  "nome": "Food",
+  "palavras": "exevo pan",
+  "level": 14,
+  "mana": 120,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/great_light.lua",
+  "nome": "Great Light",
+  "palavras": "utevo gran lux",
+  "level": 13,
+  "mana": 60,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/haste.lua",
+  "nome": "Haste",
+  "palavras": "utani hur",
+  "level": 14,
+  "mana": 60,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/invisible.lua",
+  "nome": "Invisibility",
+  "palavras": "utana vid",
+  "level": 35,
+  "mana": 440,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/levitate.lua",
+  "nome": "Levitate",
+  "palavras": "exani hur",
+  "level": 12,
+  "mana": 50,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_POFF",
+   "CONST_ME_TELEPORT"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/light.lua",
+  "nome": "Light",
+  "palavras": "utevo lux",
+  "level": 8,
+  "mana": 20,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/magic_rope.lua",
+  "nome": "Magic Rope",
+  "palavras": "exani tera",
+  "level": 9,
+  "mana": 20,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"knight;true\", \"elite knight;true\", \"paladin;true\", \"royal paladin;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_POFF",
+   "CONST_ME_TELEPORT"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/magic_shield.lua",
+  "nome": "Magic Shield",
+  "palavras": "utamo vita",
+  "level": 14,
+  "mana": 50,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/mentor_other.lua",
+  "nome": "Mentor Other",
+  "palavras": "uteta tio",
+  "level": 150,
+  "mana": 110,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/protector.lua",
+  "nome": "Protector",
+  "palavras": "utamo tempo",
+  "level": 55,
+  "mana": 200,
+  "grupo": "support",
+  "vocacoes": [
+   "\"knight;true\", \"elite knight;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/sap_strength.lua",
+  "nome": "Sap Strength",
+  "palavras": "exori kor",
+  "level": 275,
+  "mana": 300,
+  "grupo": "support",
+  "vocacoes": [
+   "\"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MORTAREA"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/sharpshooter.lua",
+  "nome": "Sharpshooter",
+  "palavras": "utito tempo san",
+  "level": 60,
+  "mana": 450,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/strong_haste.lua",
+  "nome": "Strong Haste",
+  "palavras": "utani gran hur",
+  "level": 20,
+  "mana": 100,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\", \"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/summon_creature.lua",
+  "nome": "Summon Creature",
+  "palavras": "utevo res",
+  "level": 25,
+  "mana": null,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"sorcerer;true\", \"elder druid;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE",
+   "CONST_ME_POFF",
+   "CONST_ME_TELEPORT"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/swift_foot.lua",
+  "nome": "Swift Foot",
+  "palavras": "utamo tempo san",
+  "level": 55,
+  "mana": 400,
+  "grupo": "support",
+  "vocacoes": [
+   "\"paladin;true\", \"royal paladin;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/ultimate_light.lua",
+  "nome": "Ultimate Light",
+  "palavras": "utevo vis lux",
+  "level": 26,
+  "mana": 140,
+  "grupo": "support",
+  "vocacoes": [
+   "\"druid;true\", \"elder druid;true\", \"sorcerer;true\", \"master sorcerer;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_BLUE"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/virtue_of_harmony.lua",
+  "nome": "Virtue of Harmony",
+  "palavras": "utori virtu",
+  "level": 20,
+  "mana": 210,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/virtue_of_justice.lua",
+  "nome": "Virtue of Justice",
+  "palavras": "utito virtu",
+  "level": 20,
+  "mana": 210,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ },
+ {
+  "arquivo": "support/virtue_of_sustain.lua",
+  "nome": "Virtue of Sustain",
+  "palavras": "utura tio",
+  "level": 20,
+  "mana": 210,
+  "grupo": "support",
+  "vocacoes": [
+   "\"monk;true\", \"exalted monk;true\""
+  ],
+  "efeitos": [
+   "CONST_ME_MAGIC_GREEN"
+  ],
+  "projeteis": []
+ }
+]

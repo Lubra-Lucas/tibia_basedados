@@ -1,0 +1,4559 @@
+[
+ {
+  "num": 1,
+  "id": "rat_cellars",
+  "chave": "h001",
+  "nome": "Rat Cellars",
+  "desc": "Porões úmidos infestados de ratos: o primeiro passo de todo aventureiro.",
+  "principal": "Rat",
+  "comp": [
+   "Cave Rat"
+  ],
+  "lv": 1,
+  "regiao": 10704,
+  "mapa": "baiakstyller.otbm",
+  "z": 10,
+  "caixa": [
+   306,
+   188,
+   337,
+   228
+  ],
+  "bioma": "construcao",
+  "sub": true,
+  "tiles_regiao": 694,
+  "chao": {
+   "terracotta": 634,
+   "slime fungus": 25,
+   "mold floor": 23,
+   "mushroom sponge": 12
+  },
+  "export": {
+   "w": 37,
+   "h": 46,
+   "andaveis": 725,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 214,
+   "inicio": [
+    29,
+    45
+   ],
+   "origem": [
+    303,
+    185,
+    10
+   ]
+  }
+ },
+ {
+  "num": 2,
+  "id": "snake_pit",
+  "chave": "h002",
+  "nome": "Snake Pit",
+  "desc": "Um fosso quente cheio de cobras pequenas e rápidas.",
+  "principal": "Snake",
+  "comp": [],
+  "lv": 3,
+  "regiao": 7299,
+  "mapa": "Eternal Kingdoms.otbm",
+  "z": 12,
+  "caixa": [
+   1265,
+   550,
+   1304,
+   578
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 717,
+  "chao": {
+   "dirt floor": 580,
+   "muddy floor": 137
+  },
+  "export": {
+   "w": 45,
+   "h": 31,
+   "andaveis": 717,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 276,
+   "inicio": [
+    22,
+    30
+   ],
+   "origem": [
+    1262,
+    547,
+    12
+   ]
+  }
+ },
+ {
+  "num": 3,
+  "id": "spider_nest",
+  "chave": "h003",
+  "nome": "Spider Nest",
+  "desc": "Teias por toda parte. Cuidado com o veneno das aranhas.",
+  "principal": "Spider",
+  "comp": [
+   "Poison Spider"
+  ],
+  "lv": 4,
+  "regiao": 1880,
+  "mapa": "genesis.otbm",
+  "z": 10,
+  "caixa": [
+   1016,
+   1089,
+   1054,
+   1129
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 698,
+  "chao": {
+   "dirt floor": 430,
+   "earth ground": 138,
+   "muddy floor": 94,
+   "drawbridge": 33,
+   "wooden floor": 3
+  },
+  "export": {
+   "w": 44,
+   "h": 46,
+   "andaveis": 772,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 319,
+   "inicio": [
+    22,
+    45
+   ],
+   "origem": [
+    1013,
+    1086,
+    10
+   ]
+  }
+ },
+ {
+  "num": 4,
+  "id": "wolf_den",
+  "chave": "h004",
+  "nome": "Wolf Den",
+  "desc": "Matilhas de lobos e raposas rondam esta floresta.",
+  "principal": "Wolf",
+  "comp": [
+   "Fox"
+  ],
+  "lv": 6,
+  "regiao": 9361,
+  "mapa": "Aurora.otbm",
+  "z": 13,
+  "caixa": [
+   1660,
+   575,
+   1700,
+   615
+  ],
+  "bioma": "grama",
+  "sub": true,
+  "tiles_regiao": 791,
+  "chao": {
+   "jungle grass": 641,
+   "earth": 113,
+   "void": 37
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 895,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 628,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    1657,
+    572,
+    13
+   ]
+  }
+ },
+ {
+  "num": 5,
+  "id": "frog_marsh",
+  "chave": "h005",
+  "nome": "Frog Marsh",
+  "desc": "Pântano barulhento tomado por sapos coloridos.",
+  "principal": "Azure Frog",
+  "comp": [
+   "Orchid Frog",
+   "Coral Frog"
+  ],
+  "lv": 7,
+  "regiao": 5385,
+  "mapa": "nefaria.otbm",
+  "z": 7,
+  "caixa": [
+   909,
+   1366,
+   949,
+   1406
+  ],
+  "bioma": "pantano",
+  "sub": false,
+  "tiles_regiao": 607,
+  "chao": {
+   "mud": 321,
+   "jungle grass": 218,
+   "muddy water": 68
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 746,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 796,
+   "inicio": [
+    16,
+    44
+   ],
+   "origem": [
+    906,
+    1363,
+    7
+   ]
+  }
+ },
+ {
+  "num": 6,
+  "id": "troll_hills",
+  "chave": "h006",
+  "nome": "Troll Hills",
+  "desc": "Colinas rochosas onde trolls atacam quem passa.",
+  "principal": "Troll",
+  "comp": [
+   "Island Troll"
+  ],
+  "lv": 8,
+  "regiao": 6013,
+  "mapa": "centera.otbm",
+  "z": 7,
+  "caixa": [
+   800,
+   1432,
+   840,
+   1467
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 699,
+  "chao": {
+   "grass": 490,
+   "rock soil": 180,
+   "dirt": 29
+  },
+  "export": {
+   "w": 46,
+   "h": 41,
+   "andaveis": 899,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 422,
+   "inicio": [
+    16,
+    33
+   ],
+   "origem": [
+    797,
+    1429,
+    7
+   ]
+  }
+ },
+ {
+  "num": 7,
+  "id": "frost_wolf_trail",
+  "chave": "h007",
+  "nome": "Frost Wolf Trail",
+  "desc": "Lobos de pelo branco caçam em silêncio na neve.",
+  "principal": "Winter Wolf",
+  "comp": [],
+  "lv": 9,
+  "regiao": 3208,
+  "mapa": "Azeroth.otbm",
+  "z": 6,
+  "caixa": [
+   363,
+   254,
+   403,
+   294
+  ],
+  "bioma": "neve",
+  "sub": false,
+  "tiles_regiao": 699,
+  "chao": {
+   "snow": 471,
+   "ice": 168,
+   "rock": 39,
+   "sand": 21
+  },
+  "export": {
+   "w": 43,
+   "h": 43,
+   "andaveis": 757,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 146,
+   "inicio": [
+    23,
+    41
+   ],
+   "origem": [
+    363,
+    254,
+    6
+   ]
+  }
+ },
+ {
+  "num": 8,
+  "id": "bear_woods",
+  "chave": "h008",
+  "nome": "Bear Woods",
+  "desc": "Ursos e pandas protegem uma floresta cheia de vida.",
+  "principal": "Bear",
+  "comp": [
+   "Panda"
+  ],
+  "lv": 10,
+  "regiao": 7882,
+  "mapa": "map.otbm",
+  "z": 7,
+  "caixa": [
+   2635,
+   1192,
+   2675,
+   1215
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 692,
+  "chao": {
+   "grass": 669,
+   "dirt": 23
+  },
+  "export": {
+   "w": 46,
+   "h": 29,
+   "andaveis": 924,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 150,
+   "inicio": [
+    25,
+    24
+   ],
+   "origem": [
+    2632,
+    1189,
+    7
+   ]
+  }
+ },
+ {
+  "num": 9,
+  "id": "wasp_hive",
+  "chave": "h009",
+  "nome": "Wasp Hive",
+  "desc": "Vespas furiosas guardam o ninho numa clareira.",
+  "principal": "Wasp",
+  "comp": [
+   "Bug"
+  ],
+  "lv": 11,
+  "regiao": 4263,
+  "mapa": "Nutopia.otbm",
+  "z": 8,
+  "caixa": [
+   945,
+   565,
+   985,
+   597
+  ],
+  "bioma": "grama",
+  "sub": true,
+  "tiles_regiao": 869,
+  "chao": {
+   "jungle grass": 611,
+   "black marble floor": 258
+  },
+  "export": {
+   "w": 46,
+   "h": 38,
+   "andaveis": 1071,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 408,
+   "inicio": [
+    17,
+    31
+   ],
+   "origem": [
+    942,
+    562,
+    8
+   ]
+  }
+ },
+ {
+  "num": 10,
+  "id": "goblin_burrows",
+  "chave": "h010",
+  "nome": "Goblin Burrows",
+  "desc": "Goblins vivem em túneis apertados cheios de tralha.",
+  "principal": "Goblin",
+  "comp": [
+   "Goblin Scavenger"
+  ],
+  "lv": 12,
+  "regiao": 6796,
+  "mapa": "stylleryurots.otbm",
+  "z": 10,
+  "caixa": [
+   214,
+   1087,
+   250,
+   1118
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 698,
+  "chao": {
+   "dirt floor": 546,
+   "muddy floor": 149,
+   "dirt": 3
+  },
+  "export": {
+   "w": 42,
+   "h": 37,
+   "andaveis": 698,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 407,
+   "inicio": [
+    21,
+    33
+   ],
+   "origem": [
+    211,
+    1084,
+    10
+   ]
+  }
+ },
+ {
+  "num": 11,
+  "id": "orc_camp",
+  "chave": "h011",
+  "nome": "Orc Camp",
+  "desc": "Acampamento orc com lanceiros vigiando a entrada.",
+  "principal": "Orc",
+  "comp": [
+   "Orc Spearman"
+  ],
+  "lv": 13,
+  "regiao": 3673,
+  "mapa": "huttz.otbm",
+  "z": 7,
+  "caixa": [
+   2031,
+   1216,
+   2071,
+   1256
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 705,
+  "chao": {
+   "grass": 427,
+   "dirt": 264,
+   "jungle grass": 14
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 871,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 579,
+   "inicio": [
+    19,
+    44
+   ],
+   "origem": [
+    2028,
+    1213,
+    7
+   ]
+  }
+ },
+ {
+  "num": 12,
+  "id": "polar_den",
+  "chave": "h012",
+  "nome": "Polar Den",
+  "desc": "Ursos polares enormes patrulham a geleira.",
+  "principal": "Polar Bear",
+  "comp": [],
+  "lv": 14,
+  "regiao": 5019,
+  "mapa": "greed.otbm",
+  "z": 9,
+  "caixa": [
+   981,
+   858,
+   1042,
+   882
+  ],
+  "bioma": "neve",
+  "sub": true,
+  "tiles_regiao": 683,
+  "chao": {
+   "snow": 558,
+   "ice": 125
+  },
+  "export": {
+   "w": 67,
+   "h": 30,
+   "andaveis": 683,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 217,
+   "inicio": [
+    31,
+    24
+   ],
+   "origem": [
+    978,
+    855,
+    9
+   ]
+  }
+ },
+ {
+  "num": 13,
+  "id": "crab_shore",
+  "chave": "h013",
+  "nome": "Crab Shore",
+  "desc": "Praia de areia fofa com caranguejos agressivos.",
+  "principal": "Crab",
+  "comp": [],
+  "lv": 15,
+  "regiao": 2529,
+  "mapa": "Asgard.otbm",
+  "z": 7,
+  "caixa": [
+   397,
+   1976,
+   419,
+   2016
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 684,
+  "chao": {
+   "sand": 435,
+   "dirt": 114,
+   "shallow water": 74,
+   "jungle grass": 61
+  },
+  "export": {
+   "w": 28,
+   "h": 46,
+   "andaveis": 830,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 287,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    394,
+    1973,
+    7
+   ]
+  }
+ },
+ {
+  "num": 14,
+  "id": "savanna_plains",
+  "chave": "h014",
+  "nome": "Savanna Plains",
+  "desc": "Leões e hienas disputam a savana.",
+  "principal": "Lion",
+  "comp": [
+   "Hyaena"
+  ],
+  "lv": 16,
+  "regiao": 1169,
+  "mapa": "Halfard.otbm",
+  "z": 7,
+  "caixa": [
+   787,
+   974,
+   824,
+   1007
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 737,
+  "chao": {
+   "sand": 604,
+   "shallow water": 133
+  },
+  "export": {
+   "w": 43,
+   "h": 39,
+   "andaveis": 949,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 135,
+   "inicio": [
+    40,
+    37
+   ],
+   "origem": [
+    784,
+    971,
+    7
+   ]
+  }
+ },
+ {
+  "num": 15,
+  "id": "cobra_dunes",
+  "chave": "h015",
+  "nome": "Cobra Dunes",
+  "desc": "Dunas quentes escondem cobras venenosas.",
+  "principal": "Cobra",
+  "comp": [],
+  "lv": 17,
+  "regiao": 8580,
+  "mapa": "Vardius.otbm",
+  "z": 7,
+  "caixa": [
+   1430,
+   1496,
+   1470,
+   1524
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 698,
+  "chao": {
+   "sand": 564,
+   "shallow water": 82,
+   "stony floor": 32,
+   "wooden floor": 10,
+   "dirt": 9
+  },
+  "export": {
+   "w": 46,
+   "h": 34,
+   "andaveis": 858,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 551,
+   "inicio": [
+    20,
+    28
+   ],
+   "origem": [
+    1427,
+    1493,
+    7
+   ]
+  }
+ },
+ {
+  "num": 16,
+  "id": "centipede_tunnels",
+  "chave": "h016",
+  "nome": "Centipede Tunnels",
+  "desc": "Túneis estreitos cheios de centopeias e larvas.",
+  "principal": "Centipede",
+  "comp": [
+   "Larva"
+  ],
+  "lv": 18,
+  "regiao": 10,
+  "mapa": "idk.otbm",
+  "z": 10,
+  "caixa": [
+   982,
+   969,
+   1020,
+   1009
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 707,
+  "chao": {
+   "earth": 627,
+   "organic structure": 80
+  },
+  "export": {
+   "w": 43,
+   "h": 45,
+   "andaveis": 790,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 349,
+   "inicio": [
+    18,
+    44
+   ],
+   "origem": [
+    980,
+    967,
+    10
+   ]
+  }
+ },
+ {
+  "num": 17,
+  "id": "skeleton_crypt",
+  "chave": "h017",
+  "nome": "Skeleton Crypt",
+  "desc": "Cripta antiga com esqueletos que não descansam.",
+  "principal": "Skeleton",
+  "comp": [
+   "Skeleton Warrior"
+  ],
+  "lv": 19,
+  "regiao": 448,
+  "mapa": "lrb.otbm",
+  "z": 10,
+  "caixa": [
+   1153,
+   1026,
+   1187,
+   1066
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 695,
+  "chao": {
+   "stone floor": 681,
+   "wooden planks": 14
+  },
+  "export": {
+   "w": 40,
+   "h": 46,
+   "andaveis": 827,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 161,
+   "inicio": [
+    24,
+    44
+   ],
+   "origem": [
+    1150,
+    1023,
+    10
+   ]
+  }
+ },
+ {
+  "num": 18,
+  "id": "rotworm_tunnels",
+  "chave": "h018",
+  "nome": "Rotworm Tunnels",
+  "desc": "A clássica caverna de rotworms: ótimo treino de level.",
+  "principal": "Rotworm",
+  "comp": [
+   "Carrion Worm"
+  ],
+  "lv": 20,
+  "regiao": 6368,
+  "mapa": "naxedmap.otbm",
+  "z": 9,
+  "caixa": [
+   209,
+   336,
+   252,
+   365
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 671,
+  "chao": {
+   "rock": 671
+  },
+  "export": {
+   "w": 49,
+   "h": 35,
+   "andaveis": 671,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 187,
+   "inicio": [
+    24,
+    30
+   ],
+   "origem": [
+    206,
+    333,
+    9
+   ]
+  }
+ },
+ {
+  "num": 19,
+  "id": "tiger_jungle",
+  "chave": "h019",
+  "nome": "Tiger Jungle",
+  "desc": "Selva densa onde tigres emboscam de dentro do mato.",
+  "principal": "Tiger",
+  "comp": [],
+  "lv": 21,
+  "regiao": 1988,
+  "mapa": "Ere'Nath.otbm",
+  "z": 7,
+  "caixa": [
+   792,
+   734,
+   830,
+   773
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 717,
+  "chao": {
+   "grass": 633,
+   "dirt": 55,
+   "sand": 19,
+   "flowers": 10
+  },
+  "export": {
+   "w": 44,
+   "h": 45,
+   "andaveis": 856,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 590,
+   "inicio": [
+    22,
+    39
+   ],
+   "origem": [
+    789,
+    731,
+    7
+   ]
+  }
+ },
+ {
+  "num": 20,
+  "id": "crocodile_swamp",
+  "chave": "h020",
+  "nome": "Crocodile Swamp",
+  "desc": "Pântano raso dominado por crocodilos famintos.",
+  "principal": "Crocodile",
+  "comp": [],
+  "lv": 22,
+  "regiao": 7357,
+  "mapa": "Telara.otbm",
+  "z": 6,
+  "caixa": [
+   1070,
+   920,
+   1110,
+   953
+  ],
+  "bioma": "pantano",
+  "sub": false,
+  "tiles_regiao": 521,
+  "chao": {
+   "mossy floor": 474,
+   "wasteland": 47
+  },
+  "export": {
+   "w": 46,
+   "h": 36,
+   "andaveis": 593,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 163,
+   "inicio": [
+    17,
+    31
+   ],
+   "origem": [
+    1067,
+    920,
+    6
+   ]
+  }
+ },
+ {
+  "num": 21,
+  "id": "elf_grove",
+  "chave": "h021",
+  "nome": "Elf Grove",
+  "desc": "Bosque élfico protegido por arqueiros certeiros.",
+  "principal": "Elf",
+  "comp": [
+   "Elf Scout"
+  ],
+  "lv": 23,
+  "regiao": 1290,
+  "mapa": "Emerald.otbm",
+  "z": 7,
+  "caixa": [
+   3551,
+   3088,
+   3591,
+   3128
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 728,
+  "chao": {
+   "grass": 528,
+   "gravel": 108,
+   "dirt": 75,
+   "sand": 14,
+   "drawbridge": 3
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 987,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 549,
+   "inicio": [
+    32,
+    43
+   ],
+   "origem": [
+    3548,
+    3085,
+    7
+   ]
+  }
+ },
+ {
+  "num": 22,
+  "id": "dwarf_mines",
+  "chave": "h022",
+  "nome": "Dwarf Mines",
+  "desc": "Minas anãs cavadas fundo na pedra, com soldados e guardas.",
+  "principal": "Dwarf",
+  "comp": [
+   "Dwarf Soldier",
+   "Dwarf Guard"
+  ],
+  "lv": 24,
+  "regiao": 51,
+  "mapa": "idk2.otbm",
+  "z": 10,
+  "caixa": [
+   982,
+   969,
+   1020,
+   1009
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 707,
+  "chao": {
+   "earth": 627,
+   "organic structure": 80
+  },
+  "export": {
+   "w": 44,
+   "h": 46,
+   "andaveis": 790,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 486,
+   "inicio": [
+    19,
+    45
+   ],
+   "origem": [
+    979,
+    966,
+    10
+   ]
+  }
+ },
+ {
+  "num": 23,
+  "id": "minotaur_maze",
+  "chave": "h023",
+  "nome": "Minotaur Maze",
+  "desc": "Labirinto de minotauros guerreiros, arqueiros e magos.",
+  "principal": "Minotaur",
+  "comp": [
+   "Minotaur Archer",
+   "Minotaur Mage"
+  ],
+  "lv": 25,
+  "regiao": 267,
+  "mapa": "earthelementals.otbm",
+  "z": 9,
+  "caixa": [
+   940,
+   1050,
+   980,
+   1085
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 681,
+  "chao": {
+   "earth": 630,
+   "dirt floor": 44,
+   "muddy floor": 7
+  },
+  "export": {
+   "w": 46,
+   "h": 41,
+   "andaveis": 830,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 504,
+   "inicio": [
+    23,
+    40
+   ],
+   "origem": [
+    937,
+    1047,
+    9
+   ]
+  }
+ },
+ {
+  "num": 24,
+  "id": "orc_stronghold",
+  "chave": "h024",
+  "nome": "Orc Stronghold",
+  "desc": "Fortaleza orc com guerreiros e xamãs lançando magias.",
+  "principal": "Orc Warrior",
+  "comp": [
+   "Orc Shaman"
+  ],
+  "lv": 26,
+  "regiao": 2278,
+  "mapa": "Thaismap.otbm",
+  "z": 9,
+  "caixa": [
+   1072,
+   1456,
+   1112,
+   1496
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 695,
+  "chao": {
+   "dirt floor": 677,
+   "dirt": 14,
+   "drawbridge": 4
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 943,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 467,
+   "inicio": [
+    9,
+    43
+   ],
+   "origem": [
+    1069,
+    1453,
+    9
+   ]
+  }
+ },
+ {
+  "num": 25,
+  "id": "amazon_fort",
+  "chave": "h025",
+  "nome": "Amazon Fort",
+  "desc": "Amazonas e valquírias defendem o forte com lanças.",
+  "principal": "Amazon",
+  "comp": [
+   "Valkyrie"
+  ],
+  "lv": 27,
+  "regiao": 3011,
+  "mapa": "kaldera3.otbm",
+  "z": 7,
+  "caixa": [
+   1254,
+   954,
+   1287,
+   994
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 683,
+  "chao": {
+   "grass": 497,
+   "dirt": 102,
+   "dirt floor": 38,
+   "rock soil": 28,
+   "flowers": 11
+  },
+  "export": {
+   "w": 39,
+   "h": 46,
+   "andaveis": 826,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 913,
+   "inicio": [
+    19,
+    44
+   ],
+   "origem": [
+    1251,
+    951,
+    7
+   ]
+  }
+ },
+ {
+  "num": 26,
+  "id": "nomad_oasis",
+  "chave": "h026",
+  "nome": "Nomad Oasis",
+  "desc": "Nômades do deserto protegem um oásis escondido.",
+  "principal": "Nomad",
+  "comp": [
+   "Nomad Female"
+  ],
+  "lv": 28,
+  "regiao": 5753,
+  "mapa": "ByIkariam.otbm",
+  "z": 7,
+  "caixa": [
+   1060,
+   1278,
+   1095,
+   1313
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 708,
+  "chao": {
+   "sand": 626,
+   "shallow water": 69,
+   "grass": 13
+  },
+  "export": {
+   "w": 41,
+   "h": 41,
+   "andaveis": 902,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 134,
+   "inicio": [
+    19,
+    34
+   ],
+   "origem": [
+    1057,
+    1275,
+    7
+   ]
+  }
+ },
+ {
+  "num": 27,
+  "id": "bandit_hideout",
+  "chave": "h027",
+  "nome": "Bandit Hideout",
+  "desc": "Esconderijo de bandidos e caçadores ilegais.",
+  "principal": "Bandit",
+  "comp": [
+   "Poacher"
+  ],
+  "lv": 29,
+  "regiao": 1604,
+  "mapa": "rising_continents.otbm",
+  "z": 7,
+  "caixa": [
+   377,
+   1172,
+   417,
+   1196
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 709,
+  "chao": {
+   "grass": 709
+  },
+  "export": {
+   "w": 46,
+   "h": 30,
+   "andaveis": 912,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 28,
+   "inicio": [
+    24,
+    27
+   ],
+   "origem": [
+    374,
+    1169,
+    7
+   ]
+  }
+ },
+ {
+  "num": 28,
+  "id": "barbarian_camp",
+  "chave": "h028",
+  "nome": "Barbarian Camp",
+  "desc": "Bárbaros com domadores de feras acampados na neve.",
+  "principal": "Barbarian Skullhunter",
+  "comp": [
+   "Barbarian Headsplitter",
+   "Barbarian Brutetamer"
+  ],
+  "lv": 30,
+  "regiao": 511,
+  "mapa": "icecatacomb.otbm",
+  "z": 5,
+  "caixa": [
+   1030,
+   1041,
+   1061,
+   1081
+  ],
+  "bioma": "neve",
+  "sub": false,
+  "tiles_regiao": 669,
+  "chao": {
+   "ice": 423,
+   "wet temple floor": 244,
+   "snow": 2
+  },
+  "export": {
+   "w": 37,
+   "h": 46,
+   "andaveis": 702,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 325,
+   "inicio": [
+    8,
+    44
+   ],
+   "origem": [
+    1027,
+    1038,
+    5
+   ]
+  }
+ },
+ {
+  "num": 29,
+  "id": "ghoul_graves",
+  "chave": "h029",
+  "nome": "Ghoul Graves",
+  "desc": "Cemitério antigo onde os mortos se arrastam.",
+  "principal": "Ghoul",
+  "comp": [
+   "Crypt Shambler"
+  ],
+  "lv": 31,
+  "regiao": 391,
+  "mapa": "hell_dungeon.otbm",
+  "z": 13,
+  "caixa": [
+   949,
+   1101,
+   987,
+   1141
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 674,
+  "chao": {
+   "stone floor": 482,
+   "brown marble floor": 192
+  },
+  "export": {
+   "w": 44,
+   "h": 46,
+   "andaveis": 834,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 224,
+   "inicio": [
+    22,
+    44
+   ],
+   "origem": [
+    946,
+    1098,
+    13
+   ]
+  }
+ },
+ {
+  "num": 30,
+  "id": "gazer_spires",
+  "chave": "h030",
+  "nome": "Gazer Spires",
+  "desc": "Olhos flutuantes vigiam torres de pedra fria.",
+  "principal": "Gazer",
+  "comp": [
+   "Bonelord"
+  ],
+  "lv": 32,
+  "regiao": 1107,
+  "mapa": "cants.otbm",
+  "z": 14,
+  "caixa": [
+   501,
+   240,
+   529,
+   289
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 724,
+  "chao": {
+   "stone tile": 401,
+   "stone floor": 232,
+   "drawbridge": 91
+  },
+  "export": {
+   "w": 34,
+   "h": 55,
+   "andaveis": 724,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 57,
+   "inicio": [
+    17,
+    50
+   ],
+   "origem": [
+    498,
+    237,
+    14
+   ]
+  }
+ },
+ {
+  "num": 31,
+  "id": "gladiator_pit",
+  "chave": "h031",
+  "nome": "Gladiator Pit",
+  "desc": "Fosso de combate com gladiadores e emboscadores.",
+  "principal": "Gladiator",
+  "comp": [
+   "Stalker"
+  ],
+  "lv": 33,
+  "regiao": 677,
+  "mapa": "world.otbm",
+  "z": 8,
+  "caixa": [
+   1021,
+   1021,
+   1038,
+   1056
+  ],
+  "bioma": "construcao",
+  "sub": true,
+  "tiles_regiao": 437,
+  "chao": {
+   "tiled floor": 355,
+   "grass": 70,
+   "flowers": 12
+  },
+  "export": {
+   "w": 23,
+   "h": 41,
+   "andaveis": 437,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 52,
+   "inicio": [
+    11,
+    37
+   ],
+   "origem": [
+    1018,
+    1018,
+    8
+   ]
+  }
+ },
+ {
+  "num": 32,
+  "id": "tortoise_coast",
+  "chave": "h032",
+  "nome": "Tortoise Coast",
+  "desc": "Tartarugas de casco duro passeiam pela costa.",
+  "principal": "Tortoise",
+  "comp": [
+   "Thornback Tortoise"
+  ],
+  "lv": 34,
+  "regiao": 116,
+  "mapa": "Desertcity.otbm",
+  "z": 6,
+  "caixa": [
+   1038,
+   979,
+   1078,
+   1019
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 652,
+  "chao": {
+   "sandstone floor": 285,
+   "tiled floor": 146,
+   "sand": 103,
+   "parquet floor": 100,
+   "stony floor": 18
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 848,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 378,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    1035,
+    976,
+    6
+   ]
+  }
+ },
+ {
+  "num": 33,
+  "id": "quara_reef",
+  "chave": "h033",
+  "nome": "Quara Reef",
+  "desc": "Recife raso habitado por batedores quaras.",
+  "principal": "Quara Mantassin Scout",
+  "comp": [
+   "Quara Hydromancer Scout"
+  ],
+  "lv": 35,
+  "regiao": 541,
+  "mapa": "yutae.otbm",
+  "z": 7,
+  "caixa": [
+   1114,
+   883,
+   1139,
+   923
+  ],
+  "bioma": "agua",
+  "sub": false,
+  "tiles_regiao": 660,
+  "chao": {
+   "shallow water": 660
+  },
+  "export": {
+   "w": 30,
+   "h": 46,
+   "andaveis": 802,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 257,
+   "inicio": [
+    15,
+    45
+   ],
+   "origem": [
+    1111,
+    880,
+    7
+   ]
+  }
+ },
+ {
+  "num": 34,
+  "id": "assassin_den",
+  "chave": "h034",
+  "nome": "Assassin Den",
+  "desc": "Covil de assassinos e aprendizes das trevas.",
+  "principal": "Assassin",
+  "comp": [
+   "Dark Apprentice"
+  ],
+  "lv": 36,
+  "regiao": 7506,
+  "mapa": "Telara.otbm",
+  "z": 8,
+  "caixa": [
+   1546,
+   846,
+   1595,
+   902
+  ],
+  "bioma": "construcao",
+  "sub": true,
+  "tiles_regiao": 768,
+  "chao": {
+   "brown pavement": 469,
+   "small lava cracks": 290,
+   "black marble floor": 9
+  },
+  "export": {
+   "w": 55,
+   "h": 62,
+   "andaveis": 768,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 225,
+   "inicio": [
+    27,
+    56
+   ],
+   "origem": [
+    1543,
+    843,
+    8
+   ]
+  }
+ },
+ {
+  "num": 35,
+  "id": "kongra_jungle",
+  "chave": "h035",
+  "nome": "Kongra Jungle",
+  "desc": "Selva barulhenta tomada por macacos fortes.",
+  "principal": "Kongra",
+  "comp": [
+   "Sibang",
+   "Merlkin"
+  ],
+  "lv": 37,
+  "regiao": 4464,
+  "mapa": "styller.otbm",
+  "z": 7,
+  "caixa": [
+   542,
+   1031,
+   582,
+   1065
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 692,
+  "chao": {
+   "grass": 666,
+   "rock soil": 15,
+   "muddy floor": 10,
+   "dirt floor": 1
+  },
+  "export": {
+   "w": 46,
+   "h": 40,
+   "andaveis": 941,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 498,
+   "inicio": [
+    23,
+    39
+   ],
+   "origem": [
+    539,
+    1028,
+    7
+   ]
+  }
+ },
+ {
+  "num": 36,
+  "id": "scarab_tombs",
+  "chave": "h036",
+  "nome": "Scarab Tombs",
+  "desc": "Escaravelhos gigantes devoram tudo nas tumbas do deserto.",
+  "principal": "Scarab",
+  "comp": [
+   "Sandcrawler"
+  ],
+  "lv": 38,
+  "regiao": 979,
+  "mapa": "issavi.otbm",
+  "z": 9,
+  "caixa": [
+   33785,
+   31595,
+   33824,
+   31627
+  ],
+  "bioma": "areia",
+  "sub": true,
+  "tiles_regiao": 653,
+  "chao": {
+   "sandstone tile": 653
+  },
+  "export": {
+   "w": 45,
+   "h": 38,
+   "andaveis": 653,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 181,
+   "inicio": [
+    16,
+    33
+   ],
+   "origem": [
+    33782,
+    31592,
+    9
+   ]
+  }
+ },
+ {
+  "num": 37,
+  "id": "haunted_manor",
+  "chave": "h037",
+  "nome": "Haunted Manor",
+  "desc": "Mansão assombrada onde espíritos vagam sem rumo.",
+  "principal": "Ghost",
+  "comp": [
+   "Tarnished Spirit"
+  ],
+  "lv": 39,
+  "regiao": 412,
+  "mapa": "Oasis.otbm",
+  "z": 7,
+  "caixa": [
+   996,
+   986,
+   1036,
+   1022
+  ],
+  "bioma": "construcao",
+  "sub": false,
+  "tiles_regiao": 759,
+  "chao": {
+   "grass": 245,
+   "cobblestone": 242,
+   "shallow water": 102,
+   "pavement": 79,
+   "flowers": 68
+  },
+  "export": {
+   "w": 46,
+   "h": 42,
+   "andaveis": 851,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 650,
+   "inicio": [
+    23,
+    39
+   ],
+   "origem": [
+    993,
+    983,
+    7
+   ]
+  }
+ },
+ {
+  "num": 38,
+  "id": "deepling_depths",
+  "chave": "h038",
+  "nome": "Deepling Depths",
+  "desc": "Deeplings trabalhando nas profundezas do mar.",
+  "principal": "Deepling Worker",
+  "comp": [
+   "Deepling Scout"
+  ],
+  "lv": 40,
+  "regiao": 9484,
+  "mapa": "MightMap.otbm",
+  "z": 9,
+  "caixa": [
+   1675,
+   1954,
+   1701,
+   1994
+  ],
+  "bioma": "agua",
+  "sub": true,
+  "tiles_regiao": 831,
+  "chao": {
+   "ocean floor": 831
+  },
+  "export": {
+   "w": 32,
+   "h": 46,
+   "andaveis": 1058,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 120,
+   "inicio": [
+    16,
+    45
+   ],
+   "origem": [
+    1672,
+    1951,
+    9
+   ]
+  }
+ },
+ {
+  "num": 39,
+  "id": "fire_devil_forge",
+  "chave": "h039",
+  "nome": "Fire Devil Forge",
+  "desc": "Forja infernal com diabinhos de fogo e gozzlers.",
+  "principal": "Fire Devil",
+  "comp": [
+   "Gozzler"
+  ],
+  "lv": 44,
+  "regiao": 102,
+  "mapa": "yielothax_nest.otbm",
+  "z": 11,
+  "caixa": [
+   961,
+   1136,
+   998,
+   1177
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 497,
+  "chao": {
+   "iron floor": 389,
+   "strange sand": 92,
+   "slime fungus": 12,
+   "earth": 4
+  },
+  "export": {
+   "w": 43,
+   "h": 47,
+   "andaveis": 497,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 278,
+   "inicio": [
+    21,
+    40
+   ],
+   "origem": [
+    958,
+    1133,
+    11
+   ]
+  }
+ },
+ {
+  "num": 40,
+  "id": "cyclops_fort",
+  "chave": "h040",
+  "nome": "Cyclops Fort",
+  "desc": "Forte de ciclopes brutamontes e seus zangões.",
+  "principal": "Cyclops",
+  "comp": [
+   "Cyclops Drone"
+  ],
+  "lv": 45,
+  "regiao": 476,
+  "mapa": "Tshikiti Mountains.otbm",
+  "z": 4,
+  "caixa": [
+   963,
+   903,
+   1003,
+   943
+  ],
+  "bioma": "terra",
+  "sub": false,
+  "tiles_regiao": 615,
+  "chao": {
+   "dry earth": 582,
+   "sand": 22,
+   "gravel": 11
+  },
+  "export": {
+   "w": 46,
+   "h": 44,
+   "andaveis": 654,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 382,
+   "inicio": [
+    18,
+    30
+   ],
+   "origem": [
+    960,
+    902,
+    4
+   ]
+  }
+ },
+ {
+  "num": 41,
+  "id": "frost_giant_hall",
+  "chave": "h041",
+  "nome": "Frost Giant Hall",
+  "desc": "Salão gelado de gigantes do gelo.",
+  "principal": "Frost Giant",
+  "comp": [
+   "Frost Giantess"
+  ],
+  "lv": 46,
+  "regiao": 146,
+  "mapa": "Ice_Caves.otbm",
+  "z": 13,
+  "caixa": [
+   1007,
+   1059,
+   1040,
+   1118
+  ],
+  "bioma": "neve",
+  "sub": true,
+  "tiles_regiao": 845,
+  "chao": {
+   "ice": 556,
+   "shallow water": 289
+  },
+  "export": {
+   "w": 39,
+   "h": 65,
+   "andaveis": 845,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 141,
+   "inicio": [
+    19,
+    60
+   ],
+   "origem": [
+    1004,
+    1056,
+    13
+   ]
+  }
+ },
+ {
+  "num": 42,
+  "id": "mummy_crypt",
+  "chave": "h042",
+  "nome": "Mummy Crypt",
+  "desc": "Tumba antiga cheia de múmias e servos embalsamados.",
+  "principal": "Mummy",
+  "comp": [
+   "Tomb Servant"
+  ],
+  "lv": 47,
+  "regiao": 333,
+  "mapa": "Pck_Dung.otbm",
+  "z": 10,
+  "caixa": [
+   1046,
+   991,
+   1086,
+   1031
+  ],
+  "bioma": "areia",
+  "sub": true,
+  "tiles_regiao": 680,
+  "chao": {
+   "grey sand": 608,
+   "dry floor": 54,
+   "stone pebble floor": 18
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 880,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 339,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    1043,
+    988,
+    10
+   ]
+  }
+ },
+ {
+  "num": 43,
+  "id": "golem_workshop",
+  "chave": "h043",
+  "nome": "Golem Workshop",
+  "desc": "Oficina de golens de pedra e servos de ferro.",
+  "principal": "Stone Golem",
+  "comp": [
+   "Iron Servant"
+  ],
+  "lv": 48,
+  "regiao": 320,
+  "mapa": "SS_cave.otbm",
+  "z": 11,
+  "caixa": [
+   1026,
+   1077,
+   1066,
+   1117
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 762,
+  "chao": {
+   "stone floor": 703,
+   "ornamented floor": 39,
+   "muddy water": 20
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 844,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 310,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    1023,
+    1074,
+    11
+   ]
+  }
+ },
+ {
+  "num": 44,
+  "id": "slime_pits",
+  "chave": "h044",
+  "nome": "Slime Pits",
+  "desc": "Poças gosmentas onde blobs ácidos se multiplicam.",
+  "principal": "Slime",
+  "comp": [
+   "Mercury Blob",
+   "Acid Blob"
+  ],
+  "lv": 49,
+  "regiao": 108,
+  "mapa": "hydras_cave.otbm",
+  "z": 8,
+  "caixa": [
+   983,
+   1004,
+   1023,
+   1038
+  ],
+  "bioma": "pantano",
+  "sub": true,
+  "tiles_regiao": 690,
+  "chao": {
+   "mud": 439,
+   "jungle grass": 109,
+   "muddy water": 89,
+   "earth": 36,
+   "shallow water": 17
+  },
+  "export": {
+   "w": 46,
+   "h": 40,
+   "andaveis": 763,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 664,
+   "inicio": [
+    16,
+    39
+   ],
+   "origem": [
+    980,
+    1001,
+    8
+   ]
+  }
+ },
+ {
+  "num": 45,
+  "id": "dragon_nursery",
+  "chave": "h045",
+  "nome": "Dragon Nursery",
+  "desc": "Berçário de dragões ainda pequenos, mas já cuspindo fogo.",
+  "principal": "Dragon Hatchling",
+  "comp": [],
+  "lv": 54,
+  "regiao": 2769,
+  "mapa": "EvobySumm.otbm",
+  "z": 7,
+  "caixa": [
+   808,
+   1595,
+   848,
+   1634
+  ],
+  "bioma": "terra",
+  "sub": false,
+  "tiles_regiao": 686,
+  "chao": {
+   "earth": 373,
+   "jungle grass": 201,
+   "wooden floor": 88,
+   "glowing switch": 24
+  },
+  "export": {
+   "w": 46,
+   "h": 45,
+   "andaveis": 881,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 569,
+   "inicio": [
+    23,
+    40
+   ],
+   "origem": [
+    805,
+    1592,
+    7
+   ]
+  }
+ },
+ {
+  "num": 46,
+  "id": "monastery_halls",
+  "chave": "h046",
+  "nome": "Monastery Halls",
+  "desc": "Monges devotos e monges sombrios dividem o mosteiro.",
+  "principal": "Monk",
+  "comp": [
+   "Dark Monk"
+  ],
+  "lv": 57,
+  "regiao": 2136,
+  "mapa": "Ere'Nath.otbm",
+  "z": 13,
+  "caixa": [
+   916,
+   596,
+   956,
+   636
+  ],
+  "bioma": "construcao",
+  "sub": true,
+  "tiles_regiao": 706,
+  "chao": {
+   "cobbled pavement": 320,
+   "dirt floor": 291,
+   "muddy floor": 95
+  },
+  "export": {
+   "w": 43,
+   "h": 43,
+   "andaveis": 851,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 149,
+   "inicio": [
+    21,
+    40
+   ],
+   "origem": [
+    916,
+    596,
+    13
+   ]
+  }
+ },
+ {
+  "num": 47,
+  "id": "djinn_fortress",
+  "chave": "h047",
+  "nome": "Djinn Fortress",
+  "desc": "Fortaleza dos djinns do deserto, rivais há séculos.",
+  "principal": "Blue Djinn",
+  "comp": [
+   "Green Djinn"
+  ],
+  "lv": 61,
+  "regiao": 306,
+  "mapa": "gz_valley.otbm",
+  "z": 7,
+  "caixa": [
+   1063,
+   984,
+   1102,
+   1021
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 626,
+  "chao": {
+   "grey sand": 303,
+   "wasteland": 227,
+   "mud": 74,
+   "small brook": 22
+  },
+  "export": {
+   "w": 45,
+   "h": 43,
+   "andaveis": 864,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 671,
+   "inicio": [
+    22,
+    42
+   ],
+   "origem": [
+    1060,
+    981,
+    7
+   ]
+  }
+ },
+ {
+  "num": 48,
+  "id": "fire_rift",
+  "chave": "h048",
+  "nome": "Fire Rift",
+  "desc": "Fenda ardente onde elementais de fogo nascem das chamas.",
+  "principal": "Fire Elemental",
+  "comp": [],
+  "lv": 62,
+  "regiao": 377,
+  "mapa": "Nightmare_Seal.otbm",
+  "z": 10,
+  "caixa": [
+   974,
+   1025,
+   1009,
+   1065
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 582,
+  "chao": {
+   "basalt floor": 332,
+   "rock": 234,
+   "stone pebbles": 8,
+   "strange sand": 5,
+   "earth": 2
+  },
+  "export": {
+   "w": 41,
+   "h": 46,
+   "andaveis": 680,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 186,
+   "inicio": [
+    30,
+    44
+   ],
+   "origem": [
+    971,
+    1022,
+    10
+   ]
+  }
+ },
+ {
+  "num": 49,
+  "id": "demon_skeleton_pit",
+  "chave": "h049",
+  "nome": "Demon Skeleton Pit",
+  "desc": "Fosso escuro com esqueletos de demônios.",
+  "principal": "Demon Skeleton",
+  "comp": [],
+  "lv": 65,
+  "regiao": 33,
+  "mapa": "white_.otbm",
+  "z": 9,
+  "caixa": [
+   1016,
+   982,
+   1056,
+   1022
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 613,
+  "chao": {
+   "stone floor": 293,
+   "sand": 170,
+   "rock soil": 150
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 643,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 430,
+   "inicio": [
+    23,
+    44
+   ],
+   "origem": [
+    1013,
+    979,
+    9
+   ]
+  }
+ },
+ {
+  "num": 50,
+  "id": "zombie_graves",
+  "chave": "h050",
+  "nome": "Zombie Graves",
+  "desc": "Sepulturas abertas e mortos-vivos podres.",
+  "principal": "Zombie",
+  "comp": [
+   "Ghoul"
+  ],
+  "lv": 72,
+  "regiao": 747,
+  "mapa": "otfusion.otbm",
+  "z": 9,
+  "caixa": [
+   903,
+   1069,
+   944,
+   1098
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 716,
+  "chao": {
+   "stone tile": 715,
+   "dirt floor": 1
+  },
+  "export": {
+   "w": 47,
+   "h": 35,
+   "andaveis": 716,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 93,
+   "inicio": [
+    23,
+    31
+   ],
+   "origem": [
+    900,
+    1066,
+    9
+   ]
+  }
+ },
+ {
+  "num": 51,
+  "id": "vampire_crypt",
+  "chave": "h051",
+  "nome": "Vampire Crypt",
+  "desc": "Cripta elegante de vampiros sedentos.",
+  "principal": "Vampire",
+  "comp": [],
+  "lv": 76,
+  "regiao": 92,
+  "mapa": "heros.otbm",
+  "z": 9,
+  "caixa": [
+   1006,
+   992,
+   1045,
+   1050
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 750,
+  "chao": {
+   "black marble floor": 750
+  },
+  "export": {
+   "w": 45,
+   "h": 64,
+   "andaveis": 750,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 303,
+   "inicio": [
+    22,
+    59
+   ],
+   "origem": [
+    1003,
+    989,
+    9
+   ]
+  }
+ },
+ {
+  "num": 52,
+  "id": "efreet_palace",
+  "chave": "h052",
+  "nome": "Efreet Palace",
+  "desc": "Palácio flamejante dos efreets, aliados do fogo.",
+  "principal": "Efreet",
+  "comp": [],
+  "lv": 90,
+  "regiao": 401,
+  "mapa": "secret_tomb.otbm",
+  "z": 12,
+  "caixa": [
+   965,
+   987,
+   1005,
+   1027
+  ],
+  "bioma": "areia",
+  "sub": true,
+  "tiles_regiao": 602,
+  "chao": {
+   "sand": 602
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 692,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 256,
+   "inicio": [
+    23,
+    44
+   ],
+   "origem": [
+    962,
+    984,
+    12
+   ]
+  }
+ },
+ {
+  "num": 53,
+  "id": "yeti_peak",
+  "chave": "h053",
+  "nome": "Yeti Peak",
+  "desc": "Pico congelado onde yetis e bruxas do gelo rondam.",
+  "principal": "Yeti",
+  "comp": [
+   "Ice Witch"
+  ],
+  "lv": 96,
+  "regiao": 842,
+  "mapa": "forgotten.otbm",
+  "z": 7,
+  "caixa": [
+   314,
+   134,
+   354,
+   166
+  ],
+  "bioma": "neve",
+  "sub": false,
+  "tiles_regiao": 738,
+  "chao": {
+   "snow": 738
+  },
+  "export": {
+   "w": 46,
+   "h": 38,
+   "andaveis": 903,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 24,
+   "inicio": [
+    23,
+    33
+   ],
+   "origem": [
+    311,
+    131,
+    7
+   ]
+  }
+ },
+ {
+  "num": 54,
+  "id": "wyvern_cliffs",
+  "chave": "h054",
+  "nome": "Wyvern Cliffs",
+  "desc": "Penhascos varridos pelo vento e dominados por wyverns.",
+  "principal": "Wyvern",
+  "comp": [
+   "Dragon Hatchling"
+  ],
+  "lv": 102,
+  "regiao": 64,
+  "mapa": "Canoe island.otbm",
+  "z": 7,
+  "caixa": [
+   991,
+   1005,
+   1036,
+   1052
+  ],
+  "bioma": "terra",
+  "sub": false,
+  "tiles_regiao": 714,
+  "chao": {
+   "stony floor": 252,
+   "grass": 250,
+   "dirt": 67,
+   "jungle grass": 31,
+   "wooden floor": 25
+  },
+  "export": {
+   "w": 51,
+   "h": 53,
+   "andaveis": 714,
+   "spawns": 16,
+   "atlas": 2,
+   "imagens": 1583,
+   "inicio": [
+    20,
+    47
+   ],
+   "origem": [
+    988,
+    1002,
+    7
+   ]
+  }
+ },
+ {
+  "num": 55,
+  "id": "earth_rift",
+  "chave": "h055",
+  "nome": "Earth Rift",
+  "desc": "Fenda de pedra viva com elementais da terra.",
+  "principal": "Earth Elemental",
+  "comp": [
+   "Massive Earth Elemental"
+  ],
+  "lv": 107,
+  "regiao": 289,
+  "mapa": "demondung.otbm",
+  "z": 11,
+  "caixa": [
+   942,
+   1084,
+   982,
+   1121
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 614,
+  "chao": {
+   "rock soil": 297,
+   "earth": 280,
+   "mud": 37
+  },
+  "export": {
+   "w": 46,
+   "h": 43,
+   "andaveis": 666,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 506,
+   "inicio": [
+    37,
+    38
+   ],
+   "origem": [
+    939,
+    1081,
+    11
+   ]
+  }
+ },
+ {
+  "num": 56,
+  "id": "necromancer_lair",
+  "chave": "h056",
+  "nome": "Necromancer Lair",
+  "desc": "Covil de necromantes e suas bestas de ossos.",
+  "principal": "Necromancer",
+  "comp": [
+   "Bonebeast"
+  ],
+  "lv": 111,
+  "regiao": 158,
+  "mapa": "complex.otbm",
+  "z": 8,
+  "caixa": [
+   1008,
+   1030,
+   1042,
+   1092
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 892,
+  "chao": {
+   "stone floor": 892
+  },
+  "export": {
+   "w": 40,
+   "h": 68,
+   "andaveis": 892,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 245,
+   "inicio": [
+    18,
+    62
+   ],
+   "origem": [
+    1005,
+    1027,
+    8
+   ]
+  }
+ },
+ {
+  "num": 57,
+  "id": "quara_deep",
+  "chave": "h057",
+  "nome": "Quara Deep",
+  "desc": "Mantassins quaras guardam o fundo do mar.",
+  "principal": "Quara Mantassin",
+  "comp": [
+   "Quara Mantassin Scout"
+  ],
+  "lv": 114,
+  "regiao": 130,
+  "mapa": "Underwater City.otbm",
+  "z": 7,
+  "caixa": [
+   983,
+   1091,
+   1023,
+   1125
+  ],
+  "bioma": "agua",
+  "sub": false,
+  "tiles_regiao": 710,
+  "chao": {
+   "ocean floor": 710
+  },
+  "export": {
+   "w": 43,
+   "h": 37,
+   "andaveis": 788,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 123,
+   "inicio": [
+    23,
+    35
+   ],
+   "origem": [
+    983,
+    1088,
+    7
+   ]
+  }
+ },
+ {
+  "num": 58,
+  "id": "dragon_lair",
+  "chave": "h058",
+  "nome": "Dragon Lair",
+  "desc": "O covil dos dragões: fogo, ouro e muito perigo.",
+  "principal": "Dragon",
+  "comp": [
+   "Dragon Hatchling",
+   "Dragon Lord Hatchling"
+  ],
+  "lv": 125,
+  "regiao": 46,
+  "mapa": "heros_ruins.otbm",
+  "z": 13,
+  "caixa": [
+   1047,
+   1004,
+   1092,
+   1039
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 751,
+  "chao": {
+   "earth": 482,
+   "pitch black gap": 269
+  },
+  "export": {
+   "w": 51,
+   "h": 41,
+   "andaveis": 751,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 191,
+   "inicio": [
+    25,
+    35
+   ],
+   "origem": [
+    1044,
+    1001,
+    13
+   ]
+  }
+ },
+ {
+  "num": 59,
+  "id": "insectoid_hive",
+  "chave": "h059",
+  "nome": "Insectoid Hive",
+  "desc": "Colmeia insectoide cheia de operários e batedores.",
+  "principal": "Insectoid Worker",
+  "comp": [
+   "Insectoid Scout"
+  ],
+  "lv": 126,
+  "regiao": 624,
+  "mapa": "Pleiades.otbm",
+  "z": 10,
+  "caixa": [
+   955,
+   1009,
+   995,
+   1049
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 725,
+  "chao": {
+   "rock": 553,
+   "dirt": 82,
+   "dried grass": 67,
+   "stony floor": 18,
+   "rope bridge": 3
+  },
+  "export": {
+   "w": 46,
+   "h": 44,
+   "andaveis": 847,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 737,
+   "inicio": [
+    23,
+    40
+   ],
+   "origem": [
+    952,
+    1006,
+    10
+   ]
+  }
+ },
+ {
+  "num": 60,
+  "id": "pixie_glade",
+  "chave": "h060",
+  "nome": "Pixie Glade",
+  "desc": "Clareira encantada onde as fadas atacam com magia.",
+  "principal": "Pixie",
+  "comp": [
+   "Swan Maiden"
+  ],
+  "lv": 127,
+  "regiao": 15,
+  "mapa": "Kah-Mavundani Cliffs.otbm",
+  "z": 7,
+  "caixa": [
+   982,
+   1028,
+   1022,
+   1055
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 642,
+  "chao": {
+   "grass": 519,
+   "dirt floor": 85,
+   "muddy floor": 23,
+   "rock soil": 15
+  },
+  "export": {
+   "w": 43,
+   "h": 33,
+   "andaveis": 707,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 347,
+   "inicio": [
+    21,
+    27
+   ],
+   "origem": [
+    982,
+    1025,
+    7
+   ]
+  }
+ },
+ {
+  "num": 61,
+  "id": "bog_raider_marsh",
+  "chave": "h061",
+  "nome": "Bog Raider Marsh",
+  "desc": "Pântano lodoso de onde saem os bog raiders.",
+  "principal": "Bog Raider",
+  "comp": [],
+  "lv": 138,
+  "regiao": 47,
+  "mapa": "Swamp Thingy.otbm",
+  "z": 7,
+  "caixa": [
+   1042,
+   1009,
+   1079,
+   1049
+  ],
+  "bioma": "pantano",
+  "sub": false,
+  "tiles_regiao": 708,
+  "chao": {
+   "mossy floor": 675,
+   "timber floor": 17,
+   "small brook": 11,
+   "grimy wooden plank": 3,
+   "muddy floor": 2
+  },
+  "export": {
+   "w": 43,
+   "h": 46,
+   "andaveis": 871,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 493,
+   "inicio": [
+    21,
+    44
+   ],
+   "origem": [
+    1039,
+    1006,
+    7
+   ]
+  }
+ },
+ {
+  "num": 62,
+  "id": "ogre_camp",
+  "chave": "h062",
+  "nome": "Ogre Camp",
+  "desc": "Acampamento ogro com brutamontes e xamãs.",
+  "principal": "Ogre Brute",
+  "comp": [
+   "Ogre Shaman",
+   "Ogre Savage"
+  ],
+  "lv": 139,
+  "regiao": 38,
+  "mapa": "chosen_.otbm",
+  "z": 7,
+  "caixa": [
+   1029,
+   982,
+   1068,
+   1016
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 656,
+  "chao": {
+   "grass": 322,
+   "jungle grass": 162,
+   "muddy floor": 76,
+   "wasteland": 41,
+   "small brook": 34
+  },
+  "export": {
+   "w": 39,
+   "h": 34,
+   "andaveis": 656,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 472,
+   "inicio": [
+    19,
+    32
+   ],
+   "origem": [
+    1029,
+    982,
+    7
+   ]
+  }
+ },
+ {
+  "num": 63,
+  "id": "giant_spider_lair",
+  "chave": "h063",
+  "nome": "Giant Spider Lair",
+  "desc": "Ninho de aranhas gigantes de veneno mortal.",
+  "principal": "Giant Spider",
+  "comp": [
+   "Tarantula"
+  ],
+  "lv": 150,
+  "regiao": 253,
+  "mapa": "furydungeon.otbm",
+  "z": 12,
+  "caixa": [
+   1028,
+   1020,
+   1068,
+   1047
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 569,
+  "chao": {
+   "rock": 322,
+   "gravel": 247
+  },
+  "export": {
+   "w": 46,
+   "h": 33,
+   "andaveis": 643,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 624,
+   "inicio": [
+    23,
+    31
+   ],
+   "origem": [
+    1025,
+    1017,
+    12
+   ]
+  }
+ },
+ {
+  "num": 64,
+  "id": "lich_crypt",
+  "chave": "h064",
+  "nome": "Lich Crypt",
+  "desc": "Cripta de liches e múmias putrefatas.",
+  "principal": "Lich",
+  "comp": [
+   "Putrid Mummy"
+  ],
+  "lv": 151,
+  "regiao": 222,
+  "mapa": "A_DemonsCave.otbm",
+  "z": 9,
+  "caixa": [
+   965,
+   1016,
+   1004,
+   1056
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 650,
+  "chao": {
+   "stone floor": 612,
+   "sand": 36,
+   "marble floor": 2
+  },
+  "export": {
+   "w": 45,
+   "h": 46,
+   "andaveis": 766,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 177,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    962,
+    1013,
+    9
+   ]
+  }
+ },
+ {
+  "num": 65,
+  "id": "gryphon_peaks",
+  "chave": "h065",
+  "nome": "Gryphon Peaks",
+  "desc": "Picos rochosos onde grifos defendem seus ninhos.",
+  "principal": "Gryphon",
+  "comp": [],
+  "lv": 160,
+  "regiao": 161,
+  "mapa": "village.otbm",
+  "z": 6,
+  "caixa": [
+   1008,
+   1082,
+   1048,
+   1106
+  ],
+  "bioma": "terra",
+  "sub": false,
+  "tiles_regiao": 416,
+  "chao": {
+   "rock soil": 416
+  },
+  "export": {
+   "w": 43,
+   "h": 28,
+   "andaveis": 416,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 240,
+   "inicio": [
+    23,
+    22
+   ],
+   "origem": [
+    1007,
+    1081,
+    6
+   ]
+  }
+ },
+ {
+  "num": 66,
+  "id": "serpent_coast",
+  "chave": "h066",
+  "nome": "Serpent Coast",
+  "desc": "Costa traiçoeira nadando em jovens serpentes marinhas.",
+  "principal": "Young Sea Serpent",
+  "comp": [],
+  "lv": 161,
+  "regiao": 200,
+  "mapa": "Atlantis.otbm",
+  "z": 7,
+  "caixa": [
+   1006,
+   964,
+   1045,
+   1004
+  ],
+  "bioma": "agua",
+  "sub": false,
+  "tiles_regiao": 823,
+  "chao": {
+   "shallow water": 419,
+   "sandstone floor": 249,
+   "sandstone tile": 101,
+   "forest floor": 37,
+   "grimy wooden plank": 12
+  },
+  "export": {
+   "w": 45,
+   "h": 46,
+   "andaveis": 1025,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 196,
+   "inicio": [
+    21,
+    44
+   ],
+   "origem": [
+    1003,
+    961,
+    7
+   ]
+  }
+ },
+ {
+  "num": 67,
+  "id": "yielothax_nest",
+  "chave": "h067",
+  "nome": "Yielothax Nest",
+  "desc": "Ninho dimensional de yielothax e crias instáveis.",
+  "principal": "Yielothax",
+  "comp": [
+   "Instable Breach Brood"
+  ],
+  "lv": 189,
+  "regiao": 10418,
+  "mapa": "baiakstyller.otbm",
+  "z": 8,
+  "caixa": [
+   1820,
+   190,
+   1858,
+   221
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 662,
+  "chao": {
+   "purple soil": 421,
+   "earth": 241
+  },
+  "export": {
+   "w": 44,
+   "h": 37,
+   "andaveis": 753,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 507,
+   "inicio": [
+    22,
+    31
+   ],
+   "origem": [
+    1817,
+    187,
+    8
+   ]
+  }
+ },
+ {
+  "num": 68,
+  "id": "cult_sanctum",
+  "chave": "h068",
+  "nome": "Cult Sanctum",
+  "desc": "Santuário de minotauros fanáticos e profetas.",
+  "principal": "Minotaur Cult Zealot",
+  "comp": [
+   "Minotaur Cult Follower",
+   "Minotaur Cult Prophet"
+  ],
+  "lv": 199,
+  "regiao": 122,
+  "mapa": "gs.otbm",
+  "z": 9,
+  "caixa": [
+   1010,
+   992,
+   1050,
+   1032
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 648,
+  "chao": {
+   "corrupted mud": 204,
+   "dry earth": 204,
+   "rock soil": 119,
+   "rutted stone": 94,
+   "sand": 16
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 757,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 505,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    1007,
+    989,
+    9
+   ]
+  }
+ },
+ {
+  "num": 69,
+  "id": "werebeast_hollow",
+  "chave": "h069",
+  "nome": "Werebeast Hollow",
+  "desc": "Vale sombrio de criaturas que se transformam sob a lua.",
+  "principal": "Werebadger",
+  "comp": [
+   "Werefox"
+  ],
+  "lv": 221,
+  "regiao": 182,
+  "mapa": "Bogs.otbm",
+  "z": 7,
+  "caixa": [
+   1011,
+   1011,
+   1036,
+   1039
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 341,
+  "chao": {
+   "grass": 145,
+   "earth": 69,
+   "sand": 57,
+   "jungle grass": 34,
+   "shallow water": 22
+  },
+  "export": {
+   "w": 31,
+   "h": 34,
+   "andaveis": 341,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 556,
+   "inicio": [
+    14,
+    24
+   ],
+   "origem": [
+    1008,
+    1008,
+    7
+   ]
+  }
+ },
+ {
+  "num": 70,
+  "id": "rhino_plains",
+  "chave": "h070",
+  "nome": "Rhino Plains",
+  "desc": "Planície árida pisoteada por rinocerontes de pedra.",
+  "principal": "Stone Rhino",
+  "comp": [],
+  "lv": 236,
+  "regiao": 276,
+  "mapa": "Goldhaven.otbm",
+  "z": 7,
+  "caixa": [
+   968,
+   916,
+   1008,
+   956
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 768,
+  "chao": {
+   "sand": 242,
+   "grass": 218,
+   "sandstone tile": 134,
+   "tiled floor": 90,
+   "sandstone floor": 51
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 869,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 744,
+   "inicio": [
+    23,
+    43
+   ],
+   "origem": [
+    965,
+    913,
+    7
+   ]
+  }
+ },
+ {
+  "num": 71,
+  "id": "hydra_lair",
+  "chave": "h071",
+  "nome": "Hydra Lair",
+  "desc": "Pântano profundo onde hidras de várias cabeças espreitam.",
+  "principal": "Hydra",
+  "comp": [],
+  "lv": 259,
+  "regiao": 133,
+  "mapa": "brimstonebug_cave.otbm",
+  "z": 9,
+  "caixa": [
+   979,
+   1034,
+   1019,
+   1066
+  ],
+  "bioma": "pantano",
+  "sub": true,
+  "tiles_regiao": 551,
+  "chao": {
+   "muddy floor": 533,
+   "shallow water": 15,
+   "jungle grass": 3
+  },
+  "export": {
+   "w": 46,
+   "h": 38,
+   "andaveis": 628,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 348,
+   "inicio": [
+    23,
+    35
+   ],
+   "origem": [
+    976,
+    1031,
+    9
+   ]
+  }
+ },
+ {
+  "num": 72,
+  "id": "dragon_lord_citadel",
+  "chave": "h072",
+  "nome": "Dragon Lord Citadel",
+  "desc": "Cidadela dos poderosos Dragon Lords.",
+  "principal": "Dragon Lord",
+  "comp": [
+   "Dragon"
+  ],
+  "lv": 260,
+  "regiao": 3961,
+  "mapa": "Nutopia.otbm",
+  "z": 7,
+  "caixa": [
+   999,
+   782,
+   1039,
+   822
+  ],
+  "bioma": "lava",
+  "sub": false,
+  "tiles_regiao": 652,
+  "chao": {
+   "purple soil": 468,
+   "jungle grass": 165,
+   "bridge": 12,
+   "dirt": 7
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 712,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 519,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    996,
+    779,
+    7
+   ]
+  }
+ },
+ {
+  "num": 73,
+  "id": "behemoth_caves",
+  "chave": "h073",
+  "nome": "Behemoth Caves",
+  "desc": "Cavernas imensas onde gigantes behemoths esmagam rochas.",
+  "principal": "Behemoth",
+  "comp": [],
+  "lv": 292,
+  "regiao": 41,
+  "mapa": "darkcave.otbm",
+  "z": 9,
+  "caixa": [
+   1000,
+   1021,
+   1040,
+   1061
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 661,
+  "chao": {
+   "rock": 608,
+   "nothing special": 22,
+   "ocean floor": 18,
+   "earth": 13
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 702,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 344,
+   "inicio": [
+    12,
+    44
+   ],
+   "origem": [
+    997,
+    1018,
+    9
+   ]
+  }
+ },
+ {
+  "num": 74,
+  "id": "spidris_nest",
+  "chave": "h074",
+  "nome": "Spidris Nest",
+  "desc": "Ninho de spidris, aranhas colossais e venenosas.",
+  "principal": "Spidris",
+  "comp": [
+   "Spidris Elite"
+  ],
+  "lv": 299,
+  "regiao": 66,
+  "mapa": "firedungeon.otbm",
+  "z": 9,
+  "caixa": [
+   1014,
+   999,
+   1054,
+   1039
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 531,
+  "chao": {
+   "rock": 258,
+   "small lava cracks": 252,
+   "rock soil": 21
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 618,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 633,
+   "inicio": [
+    30,
+    41
+   ],
+   "origem": [
+    1011,
+    996,
+    9
+   ]
+  }
+ },
+ {
+  "num": 75,
+  "id": "devourer_quarry",
+  "chave": "h075",
+  "nome": "Devourer Quarry",
+  "desc": "Pedreira devorada por golens vivos de rocha.",
+  "principal": "Stone Devourer",
+  "comp": [],
+  "lv": 320,
+  "regiao": 393,
+  "mapa": "hell_dungeon.otbm",
+  "z": 13,
+  "caixa": [
+   1027,
+   1101,
+   1067,
+   1141
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 699,
+  "chao": {
+   "stone floor": 491,
+   "brown marble floor": 208
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 850,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 216,
+   "inicio": [
+    27,
+    44
+   ],
+   "origem": [
+    1024,
+    1098,
+    13
+   ]
+  }
+ },
+ {
+  "num": 76,
+  "id": "fury_inferno",
+  "chave": "h076",
+  "nome": "Fury Inferno",
+  "desc": "Inferno de fúrias, demônios de fogo e raiva.",
+  "principal": "Fury",
+  "comp": [],
+  "lv": 360,
+  "regiao": 8697,
+  "mapa": "Vardius.otbm",
+  "z": 10,
+  "caixa": [
+   929,
+   1358,
+   969,
+   1398
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 842,
+  "chao": {
+   "small lava cracks": 600,
+   "earth": 232,
+   "dry earth": 7,
+   "sand": 3
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 1092,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 661,
+   "inicio": [
+    32,
+    42
+   ],
+   "origem": [
+    926,
+    1355,
+    10
+   ]
+  }
+ },
+ {
+  "num": 77,
+  "id": "magma_tunnels",
+  "chave": "h077",
+  "nome": "Magma Tunnels",
+  "desc": "Túneis de lava rastejante com crawlers incandescentes.",
+  "principal": "Magma Crawler",
+  "comp": [],
+  "lv": 375,
+  "regiao": 9302,
+  "mapa": "Aurora.otbm",
+  "z": 11,
+  "caixa": [
+   3362,
+   2711,
+   3387,
+   2751
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 723,
+  "chao": {
+   "purple soil": 381,
+   "earth": 274,
+   "mud": 62,
+   "bridge": 6
+  },
+  "export": {
+   "w": 31,
+   "h": 46,
+   "andaveis": 771,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 561,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    3359,
+    2708,
+    11
+   ]
+  }
+ },
+ {
+  "num": 78,
+  "id": "lost_souls_grave",
+  "chave": "h078",
+  "nome": "Lost Souls Grave",
+  "desc": "Almas perdidas vagam sem descanso por este cemitério.",
+  "principal": "Lost Soul",
+  "comp": [
+   "Flimsy Lost Soul"
+  ],
+  "lv": 380,
+  "regiao": 185,
+  "mapa": "sandbastion.otbm",
+  "z": 4,
+  "caixa": [
+   1019,
+   1013,
+   1048,
+   1039
+  ],
+  "bioma": "pedra",
+  "sub": false,
+  "tiles_regiao": 421,
+  "chao": {
+   "stone floor": 405,
+   "wooden planks": 16
+  },
+  "export": {
+   "w": 32,
+   "h": 31,
+   "andaveis": 421,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 296,
+   "inicio": [
+    24,
+    25
+   ],
+   "origem": [
+    1018,
+    1011,
+    4
+   ]
+  }
+ },
+ {
+  "num": 79,
+  "id": "asura_palace",
+  "chave": "h079",
+  "nome": "Asura Palace",
+  "desc": "Palácio das asuras, belas e mortais.",
+  "principal": "Dawnfire Asura",
+  "comp": [
+   "Midnight Asura",
+   "Frost Flower Asura"
+  ],
+  "lv": 387,
+  "regiao": 1863,
+  "mapa": "genesis.otbm",
+  "z": 9,
+  "caixa": [
+   666,
+   1083,
+   706,
+   1123
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 690,
+  "chao": {
+   "small lava cracks": 690
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 832,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 116,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    663,
+    1080,
+    9
+   ]
+  }
+ },
+ {
+  "num": 80,
+  "id": "phantasm_void",
+  "chave": "h080",
+  "nome": "Phantasm Void",
+  "desc": "Vazio sombrio onde pesadelos ganham forma.",
+  "principal": "Phantasm",
+  "comp": [],
+  "lv": 408,
+  "regiao": 35,
+  "mapa": "elementals_cave.otbm",
+  "z": 8,
+  "caixa": [
+   987,
+   1010,
+   1030,
+   1039
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 487,
+  "chao": {
+   "stone tile": 243,
+   "mud": 105,
+   "black marble floor": 97,
+   "earth": 16,
+   "iron floor": 10
+  },
+  "export": {
+   "w": 49,
+   "h": 35,
+   "andaveis": 487,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 488,
+   "inicio": [
+    16,
+    30
+   ],
+   "origem": [
+    984,
+    1007,
+    8
+   ]
+  }
+ },
+ {
+  "num": 81,
+  "id": "bulltaur_forge",
+  "chave": "h081",
+  "nome": "Bulltaur Forge",
+  "desc": "Forja de bulltaurs alquimistas e brutamontes.",
+  "principal": "Bulltaur Alchemist",
+  "comp": [
+   "Bulltaur Brute"
+  ],
+  "lv": 415,
+  "regiao": 5183,
+  "mapa": "greed.otbm",
+  "z": 15,
+  "caixa": [
+   1034,
+   1435,
+   1062,
+   1491
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 709,
+  "chao": {
+   "stone tile": 410,
+   "stone floor": 190,
+   "drawbridge": 109
+  },
+  "export": {
+   "w": 34,
+   "h": 62,
+   "andaveis": 709,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 95,
+   "inicio": [
+    17,
+    58
+   ],
+   "origem": [
+    1031,
+    1432,
+    15
+   ]
+  }
+ },
+ {
+  "num": 82,
+  "id": "elite_skeleton_barracks",
+  "chave": "h082",
+  "nome": "Elite Skeleton Barracks",
+  "desc": "Quartel de esqueletos guerreiros de elite.",
+  "principal": "Skeleton Elite Warrior",
+  "comp": [],
+  "lv": 434,
+  "regiao": 1109,
+  "mapa": "cants.otbm",
+  "z": 14,
+  "caixa": [
+   396,
+   290,
+   433,
+   318
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 688,
+  "chao": {
+   "stone tile": 572,
+   "wooden floor": 116
+  },
+  "export": {
+   "w": 43,
+   "h": 34,
+   "andaveis": 688,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 266,
+   "inicio": [
+    21,
+    29
+   ],
+   "origem": [
+    393,
+    287,
+    14
+   ]
+  }
+ },
+ {
+  "num": 83,
+  "id": "dragolisk_lair",
+  "chave": "h083",
+  "nome": "Dragolisk Lair",
+  "desc": "Covil de dragolisks, mistura de dragão e basilisco.",
+  "principal": "Dragolisk",
+  "comp": [],
+  "lv": 449,
+  "regiao": 221,
+  "mapa": "tomb.otbm",
+  "z": 11,
+  "caixa": [
+   979,
+   1013,
+   1029,
+   1057
+  ],
+  "bioma": "terra",
+  "sub": true,
+  "tiles_regiao": 979,
+  "chao": {
+   "dirt floor": 664,
+   "dirt": 154,
+   "muddy floor": 150,
+   "sand": 11
+  },
+  "export": {
+   "w": 56,
+   "h": 50,
+   "andaveis": 979,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 382,
+   "inicio": [
+    19,
+    44
+   ],
+   "origem": [
+    976,
+    1010,
+    11
+   ]
+  }
+ },
+ {
+  "num": 84,
+  "id": "manticore_ruins",
+  "chave": "h084",
+  "nome": "Manticore Ruins",
+  "desc": "Ruínas do deserto com manticoras de cauda venenosa.",
+  "principal": "Manticore",
+  "comp": [],
+  "lv": 452,
+  "regiao": 236,
+  "mapa": "Asura_Tower.otbm",
+  "z": 3,
+  "caixa": [
+   1034,
+   1008,
+   1054,
+   1038
+  ],
+  "bioma": "areia",
+  "sub": false,
+  "tiles_regiao": 460,
+  "chao": {
+   "sandstone floor": 286,
+   "white marble floor": 133,
+   "grass": 18,
+   "shallow water": 12,
+   "forest floor": 6
+  },
+  "export": {
+   "w": 22,
+   "h": 32,
+   "andaveis": 460,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 115,
+   "inicio": [
+    11,
+    29
+   ],
+   "origem": [
+    1033,
+    1007,
+    3
+   ]
+  }
+ },
+ {
+  "num": 85,
+  "id": "girtablilu_sanctuary",
+  "chave": "h085",
+  "nome": "Girtablilu Sanctuary",
+  "desc": "Santuário escondido dos escorpiões humanoides.",
+  "principal": "Venerable Girtablilu",
+  "comp": [
+   "Girtablilu Warrior"
+  ],
+  "lv": 463,
+  "regiao": 105,
+  "mapa": "hauntedtreelings_isles.otbm",
+  "z": 12,
+  "caixa": [
+   1035,
+   1041,
+   1068,
+   1071
+  ],
+  "bioma": "areia",
+  "sub": true,
+  "tiles_regiao": 578,
+  "chao": {
+   "grey sand": 478,
+   "mossy floor": 93,
+   "dried grass": 7
+  },
+  "export": {
+   "w": 39,
+   "h": 36,
+   "andaveis": 578,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 304,
+   "inicio": [
+    19,
+    32
+   ],
+   "origem": [
+    1032,
+    1038,
+    12
+   ]
+  }
+ },
+ {
+  "num": 86,
+  "id": "naga_temple",
+  "chave": "h086",
+  "nome": "Naga Temple",
+  "desc": "Templo submerso de nagas guerreiras e arqueiras.",
+  "principal": "Naga Warrior",
+  "comp": [
+   "Naga Archer"
+  ],
+  "lv": 495,
+  "regiao": 62,
+  "mapa": "mummys.otbm",
+  "z": 8,
+  "caixa": [
+   1008,
+   1033,
+   1048,
+   1073
+  ],
+  "bioma": "pantano",
+  "sub": true,
+  "tiles_regiao": 494,
+  "chao": {
+   "muddy floor": 291,
+   "sand": 151,
+   "rock soil": 32,
+   "shallow water": 10,
+   "dry earth": 10
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 735,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 384,
+   "inicio": [
+    21,
+    43
+   ],
+   "origem": [
+    1005,
+    1030,
+    8
+   ]
+  }
+ },
+ {
+  "num": 87,
+  "id": "hellgore",
+  "chave": "h087",
+  "nome": "Hellgore",
+  "desc": "O famoso covil de demônios, quente como o inferno.",
+  "principal": "Demon",
+  "comp": [],
+  "lv": 500,
+  "regiao": 5,
+  "mapa": "hellgore.otbm",
+  "z": 10,
+  "caixa": [
+   997,
+   1008,
+   1044,
+   1044
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 968,
+  "chao": {
+   "dirt floor": 582,
+   "muddy floor": 159,
+   "earth": 78,
+   "small lava cracks": 62,
+   "stone floor": 60
+  },
+  "export": {
+   "w": 53,
+   "h": 42,
+   "andaveis": 968,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 770,
+   "inicio": [
+    26,
+    36
+   ],
+   "origem": [
+    994,
+    1005,
+    10
+   ]
+  }
+ },
+ {
+  "num": 88,
+  "id": "deathling_reef",
+  "chave": "h088",
+  "nome": "Deathling Reef",
+  "desc": "Recife maldito de deathlings afogados.",
+  "principal": "Deathling Scout",
+  "comp": [
+   "Deathling Spellsinger"
+  ],
+  "lv": 519,
+  "regiao": 936,
+  "mapa": "issavi.otbm",
+  "z": 7,
+  "caixa": [
+   33768,
+   31629,
+   33798,
+   31669
+  ],
+  "bioma": "agua",
+  "sub": false,
+  "tiles_regiao": 684,
+  "chao": {
+   "shallow water": 368,
+   "sand": 145,
+   "lush grass": 104,
+   "dry floor": 67
+  },
+  "export": {
+   "w": 36,
+   "h": 46,
+   "andaveis": 780,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 264,
+   "inicio": [
+    14,
+    43
+   ],
+   "origem": [
+    33765,
+    31626,
+    7
+   ]
+  }
+ },
+ {
+  "num": 89,
+  "id": "undead_dragon_tomb",
+  "chave": "h089",
+  "nome": "Undead Dragon Tomb",
+  "desc": "Tumba onde dragões mortos-vivos despertam.",
+  "principal": "Undead Dragon",
+  "comp": [],
+  "lv": 587,
+  "regiao": 6834,
+  "mapa": "stylleryurots.otbm",
+  "z": 12,
+  "caixa": [
+   412,
+   544,
+   454,
+   574
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 756,
+  "chao": {
+   "stone floor": 637,
+   "snake ornament": 119
+  },
+  "export": {
+   "w": 48,
+   "h": 36,
+   "andaveis": 756,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 264,
+   "inicio": [
+    11,
+    30
+   ],
+   "origem": [
+    409,
+    541,
+    12
+   ]
+  }
+ },
+ {
+  "num": 90,
+  "id": "lava_golem_forge",
+  "chave": "h090",
+  "nome": "Lava Golem Forge",
+  "desc": "Forja de golens de lava derretida.",
+  "principal": "Lava Golem",
+  "comp": [],
+  "lv": 608,
+  "regiao": 5539,
+  "mapa": "nefaria.otbm",
+  "z": 12,
+  "caixa": [
+   1508,
+   1244,
+   1542,
+   1282
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 524,
+  "chao": {
+   "iron floor": 515,
+   "dirt floor": 8,
+   "muddy floor": 1
+  },
+  "export": {
+   "w": 40,
+   "h": 44,
+   "andaveis": 524,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 223,
+   "inicio": [
+    20,
+    38
+   ],
+   "origem": [
+    1505,
+    1241,
+    12
+   ]
+  }
+ },
+ {
+  "num": 91,
+  "id": "sphinx_sanctum",
+  "chave": "h091",
+  "nome": "Sphinx Sanctum",
+  "desc": "Esfinges selvagens guardam os segredos do deserto.",
+  "principal": "Feral Sphinx",
+  "comp": [
+   "Black Sphinx Acolyte"
+  ],
+  "lv": 650,
+  "regiao": 72,
+  "mapa": "deepd_cave.otbm",
+  "z": 9,
+  "caixa": [
+   1002,
+   1021,
+   1038,
+   1048
+  ],
+  "bioma": "areia",
+  "sub": true,
+  "tiles_regiao": 582,
+  "chao": {
+   "sand": 483,
+   "stone pebble floor": 51,
+   "wasteland": 45,
+   "stone pebbles": 3
+  },
+  "export": {
+   "w": 40,
+   "h": 33,
+   "andaveis": 582,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 281,
+   "inicio": [
+    20,
+    28
+   ],
+   "origem": [
+    999,
+    1018,
+    9
+   ]
+  }
+ },
+ {
+  "num": 92,
+  "id": "library_of_tales",
+  "chave": "h092",
+  "nome": "Library of Tales",
+  "desc": "Biblioteca arcana protegida por guardiões vivos.",
+  "principal": "Guardian of Tales",
+  "comp": [
+   "Energuardian of Tales"
+  ],
+  "lv": 722,
+  "regiao": 3448,
+  "mapa": "Azeroth.otbm",
+  "z": 11,
+  "caixa": [
+   236,
+   159,
+   264,
+   208
+  ],
+  "bioma": "pedra",
+  "sub": true,
+  "tiles_regiao": 723,
+  "chao": {
+   "stone tile": 379,
+   "stone floor": 298,
+   "drawbridge": 46
+  },
+  "export": {
+   "w": 34,
+   "h": 55,
+   "andaveis": 723,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 151,
+   "inicio": [
+    17,
+    50
+   ],
+   "origem": [
+    233,
+    156,
+    11
+   ]
+  }
+ },
+ {
+  "num": 93,
+  "id": "hellflayer_pit",
+  "chave": "h093",
+  "nome": "Hellflayer Pit",
+  "desc": "Fosso dos hellflayers, demônios que arrancam almas.",
+  "principal": "Hellflayer",
+  "comp": [],
+  "lv": 760,
+  "regiao": 379,
+  "mapa": "Nightmare_Seal.otbm",
+  "z": 10,
+  "caixa": [
+   969,
+   1065,
+   1009,
+   1105
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 610,
+  "chao": {
+   "basalt floor": 340,
+   "rock": 250,
+   "strange sand": 15,
+   "stone pebbles": 3,
+   "stone pavement": 2
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 696,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 227,
+   "inicio": [
+    23,
+    45
+   ],
+   "origem": [
+    966,
+    1062,
+    10
+   ]
+  }
+ },
+ {
+  "num": 94,
+  "id": "sabretooth_cliffs",
+  "chave": "h094",
+  "nome": "Sabretooth Cliffs",
+  "desc": "Penhascos gelados rondados por tigres de dentes de sabre.",
+  "principal": "Sabretooth",
+  "comp": [],
+  "lv": 767,
+  "regiao": 3745,
+  "mapa": "huttz.otbm",
+  "z": 7,
+  "caixa": [
+   1106,
+   1425,
+   1143,
+   1465
+  ],
+  "bioma": "neve",
+  "sub": false,
+  "tiles_regiao": 700,
+  "chao": {
+   "ice": 700
+  },
+  "export": {
+   "w": 43,
+   "h": 46,
+   "andaveis": 833,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 137,
+   "inicio": [
+    21,
+    44
+   ],
+   "origem": [
+    1103,
+    1422,
+    7
+   ]
+  }
+ },
+ {
+  "num": 95,
+  "id": "gorerilla_jungle",
+  "chave": "h095",
+  "nome": "Gorerilla Jungle",
+  "desc": "Selva sangrenta dominada por gorilas colossais.",
+  "principal": "Gorerilla",
+  "comp": [],
+  "lv": 805,
+  "regiao": 2239,
+  "mapa": "Thaismap.otbm",
+  "z": 7,
+  "caixa": [
+   1053,
+   1499,
+   1093,
+   1539
+  ],
+  "bioma": "grama",
+  "sub": false,
+  "tiles_regiao": 706,
+  "chao": {
+   "grass": 664,
+   "sand": 19,
+   "dirt": 10,
+   "shallow water": 10,
+   "rock soil": 3
+  },
+  "export": {
+   "w": 46,
+   "h": 46,
+   "andaveis": 884,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 361,
+   "inicio": [
+    23,
+    44
+   ],
+   "origem": [
+    1050,
+    1496,
+    7
+   ]
+  }
+ },
+ {
+  "num": 96,
+  "id": "brachiodemon_hall",
+  "chave": "h096",
+  "nome": "Brachiodemon Hall",
+  "desc": "Salão infernal de braquiodemônios e fantasmas.",
+  "principal": "Brachiodemon",
+  "comp": [
+   "Infernal Phantom"
+  ],
+  "lv": 873,
+  "regiao": 327,
+  "mapa": "Pck_Dung.otbm",
+  "z": 9,
+  "caixa": [
+   993,
+   1047,
+   1031,
+   1069
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 422,
+  "chao": {
+   "purple soil": 288,
+   "organic structure": 131,
+   "muddy floor": 3
+  },
+  "export": {
+   "w": 44,
+   "h": 28,
+   "andaveis": 450,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 167,
+   "inicio": [
+    16,
+    22
+   ],
+   "origem": [
+    990,
+    1044,
+    9
+   ]
+  }
+ },
+ {
+  "num": 97,
+  "id": "infernal_throne",
+  "chave": "h097",
+  "nome": "Infernal Throne",
+  "desc": "Trono do inferno, onde demônios supremos governam.",
+  "principal": "Infernal Demon",
+  "comp": [],
+  "lv": 911,
+  "regiao": 2828,
+  "mapa": "EvobySumm.otbm",
+  "z": 10,
+  "caixa": [
+   1068,
+   1516,
+   1092,
+   1544
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 345,
+  "chao": {
+   "small lava cracks": 201,
+   "rock": 144
+  },
+  "export": {
+   "w": 30,
+   "h": 34,
+   "andaveis": 345,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 326,
+   "inicio": [
+    15,
+    30
+   ],
+   "origem": [
+    1065,
+    1513,
+    10
+   ]
+  }
+ },
+ {
+  "num": 98,
+  "id": "rotten_grove",
+  "chave": "h098",
+  "nome": "Rotten Grove",
+  "desc": "Bosque apodrecido de golens e rastejadores de galhos.",
+  "principal": "Rotten Golem",
+  "comp": [
+   "Branchy Crawler"
+  ],
+  "lv": 920,
+  "regiao": 8157,
+  "mapa": "map.otbm",
+  "z": 7,
+  "caixa": [
+   1873,
+   2257,
+   1913,
+   2284
+  ],
+  "bioma": "pantano",
+  "sub": false,
+  "tiles_regiao": 513,
+  "chao": {
+   "mossy floor": 471,
+   "muddy floor": 24,
+   "grimy wooden plank": 18
+  },
+  "export": {
+   "w": 46,
+   "h": 33,
+   "andaveis": 588,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 486,
+   "inicio": [
+    23,
+    28
+   ],
+   "origem": [
+    1870,
+    2254,
+    7
+   ]
+  }
+ },
+ {
+  "num": 99,
+  "id": "sea_devil_abyss",
+  "chave": "h099",
+  "nome": "Sea Devil Abyss",
+  "desc": "Abismo submarino de diabos marinhos ossudos.",
+  "principal": "Bony Sea Devil",
+  "comp": [],
+  "lv": 953,
+  "regiao": 438,
+  "mapa": "deeplings.otbm",
+  "z": 13,
+  "caixa": [
+   993,
+   1096,
+   1033,
+   1134
+  ],
+  "bioma": "agua",
+  "sub": true,
+  "tiles_regiao": 871,
+  "chao": {
+   "sea floor": 760,
+   "brown sea floor": 77,
+   "cracked temple floor": 34
+  },
+  "export": {
+   "w": 46,
+   "h": 44,
+   "andaveis": 1107,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 351,
+   "inicio": [
+    16,
+    38
+   ],
+   "origem": [
+    990,
+    1093,
+    13
+   ]
+  }
+ },
+ {
+  "num": 100,
+  "id": "darklight_core",
+  "chave": "h100",
+  "nome": "Darklight Core",
+  "desc": "O coração da luz sombria, a caçada definitiva.",
+  "principal": "Darklight Construct",
+  "comp": [
+   "Darklight Striker"
+  ],
+  "lv": 1000,
+  "regiao": 10417,
+  "mapa": "baiakstyller.otbm",
+  "z": 8,
+  "caixa": [
+   1858,
+   150,
+   1895,
+   190
+  ],
+  "bioma": "lava",
+  "sub": true,
+  "tiles_regiao": 781,
+  "chao": {
+   "purple soil": 479,
+   "earth": 302
+  },
+  "export": {
+   "w": 40,
+   "h": 46,
+   "andaveis": 932,
+   "spawns": 16,
+   "atlas": 1,
+   "imagens": 595,
+   "inicio": [
+    14,
+    44
+   ],
+   "origem": [
+    1855,
+    147,
+    8
+   ]
+  }
+ }
+]

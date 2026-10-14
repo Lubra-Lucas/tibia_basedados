@@ -1,0 +1,44 @@
+{
+  "source": "https://www.tibiawiki.com.br",
+  "collected_at": "2026-10-12T16:22:08.158806+00:00",
+  "pages": {
+    "criaturas": 2149,
+    "outfits_addons": 134,
+    "magias": 223
+  },
+  "files": {
+    "criaturas": 2474,
+    "magias": 546,
+    "outfits_addons": 1036
+  },
+  "animated_files": {
+    "criaturas": 2109,
+    "magias": 296,
+    "outfits_addons": 1036
+  },
+  "failed_downloads": [],
+  "pages_without_files": [
+    {
+      "group": "criaturas",
+      "page": "Plant Heart",
+      "name": "Plant Heart",
+      "files": [],
+      "failed": []
+    },
+    {
+      "group": "criaturas",
+      "page": "Rootthing Conservator",
+      "name": "Rootthing Conservator",
+      "files": [],
+      "failed": []
+    },
+    {
+      "group": "criaturas",
+      "page": "The Bloom",
+      "name": "The Bloom",
+      "files": [],
+      "failed": []
+    }
+  ],
+  "total_bytes": 255920380
+}

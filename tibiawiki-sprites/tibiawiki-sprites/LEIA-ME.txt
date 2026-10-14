@@ -1,0 +1,8 @@
+Arquivos originais do Tibia Wiki brasileiro. GIFs animados preservados sem conversão.
+Criaturas: sprites principais e variantes explicitamente identificadas nas páginas.
+Outfits/addons: variantes masculinas e femininas disponíveis; Addon 3 significa os dois addons juntos.
+Magias: ícones, runas e GIFs de demonstração identificados nas páginas; alguns GIFs são capturas do jogo.
+Esta coleção reflete as categorias e arquivos disponíveis no wiki na data do resumo; não é uma extração do cliente nem garante todos os frames/direções do jogo.
+Fontes e SHA-1 em manifest.json; ausências e falhas em resumo.json.
+Os direitos dos gráficos do Tibia pertencem aos respectivos titulares; a licença do pacote OpenTibia anterior não se aplica automaticamente a estes arquivos.
+Fonte: https://www.tibiawiki.com.br/
